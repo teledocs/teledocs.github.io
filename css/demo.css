@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+body{font-family: 'Open Sans', sans-serif;}
+.wrap-box{overflow: hidden;}
+h1,.h1,.h2,h2{letter-spacing: 0;}
+ .fp-tableCell{width: 100%}
+
+#banner_box{padding: 0; min-height: 100vh;}
+#mobility-slider img,
+#mobility-slider,
+.slide{width: 100% !important;}
+.slide1{background: url(https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2017/03/28052324/mobility-new-slider-4.jpg) no-repeat center top/cover;}
+.slide2{background: url(https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2017/03/28052314/mobility-new-slider-1.jpg) no-repeat center top/cover;}
+.slide3{background: url(https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2017/03/28052317/mobility-new-slider-2.jpg) no-repeat center top/cover;}
+.slide4{background: url(https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2017/03/28052321/mobility-new-slider-3.jpg) no-repeat center top/cover;}
+.progress-container {
+    position: absolute;
+    bottom: 30px;
+    height: 5px;
+    z-index: 500;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 260px;
+  }
+  #nav_menu-6 {font-family: 'Raleway', sans-serif;}
+.progress { width: 60px;background: #9b9b9b; margin: 0 2px; display: inline-block; height: 5px; float: left; cursor: pointer;}
+.progress span{background: #f00; width:0;height: 5px; display: block; cursor: pointer;}
+
+.banner-btn{margin: 35px 0 55px;}
+.banner-btn .learn_more{color: #000000; background:#ffffff; }
+.banner-btn .learn_more:before{background:#e9e7e7; }
+.banner-btn .contact_us{color: #000000;background:#ffdb49; }
+.banner-btn .contact_us:before{background:#f2cc33; }
+
+/* Updated our awards layout CSS  */
+.algo_awards {padding: 0 15px; width: 100%; text-align: center; display: block;}
+.algo_awards .award-img { float: left;}
+.algo_awards .award-col {border-right: 1px dashed #4c4c4c; border-bottom: 1px dashed #4c4c4c; width: 16.6%;}
+
+.algo_awards img {max-height: 95px;} 
+.achivements-banner {max-height: 100px; padding: 5px 0;} 
+.algo_awards .award-col:nth-child(6n) {border-right: none;}
+.algo_awards .mobbed-io span.tech-fast {font-size: 17px; line-height: 22px;}
+.algo_awards .mobbed-io  span.year {color: #a8a8a7; font-size: 15px; line-height: 19px;}
+
+.algo_awards .award-col:nth-child(19),.algo_awards .award-col:nth-child(20),.algo_awards .award-col:nth-child(21),.algo_awards .award-col:nth-child(22),.algo_awards .award-col:nth-child(23),
+.algo_awards .award-col:nth-child(24) { border-bottom: none;}
+
+@media all and (max-width: 992px){
+  .algo_awards .award-col {width: 33.33%;}
+  .algo_awards .award-col:nth-child(3n) {border-right: none;}
+
+  .algo_awards .award-col:nth-child(19),.algo_awards .award-col:nth-child(20),.algo_awards .award-col:nth-child(21){border-bottom: 1px dashed #4c4c4c;}  
+ .algo_awards .award-col:nth-child(22),.algo_awards .award-col:nth-child(23),
+  .algo_awards .award-col:nth-child(24) { border-bottom: none;}
+}
+
+@media all and (max-width: 767px){
+  .algo_awards .award-col {width: 50%; max-height: 142px;}
+  .algo_awards .award-col:nth-child(2n) {border-right: none;}
+  .algo_awards .award-col:nth-child(3n) {border-right: 1px dashed #4c4c4c;}
+  .algo_awards .award-col:nth-child(6n) {border-right: none;}
+  .algo_awards .award-col:nth-child(22){border-bottom: 1px dashed #4c4c4c;}
+  .algo_awards .award-col:nth-child(23),
+  .algo_awards .award-col:nth-child(24) {border-bottom: none;} 
+}
+
+/* Updated our awards layout CSS  */
+
+@media all and (min-width: 1441px){
+  .html5 h5,
+  .window h5{margin-top: 180px;}
+}
+.awards{/*padding: 120px 0 0; */background:#000;}
+.awards h1{font-weight: 400; margin-top: 0;}
+.awards h5{color: #d8d5d5;font-weight: 300; position: relative; margin: 0;}
+.awards h1+h5{margin-bottom: 45px;padding-bottom: 15px; }
+.awards h1+h5:after{position: absolute;content: ''; width: 50px; height: 5px; background: #fff; right: 0; left: 0; bottom: 0; margin:auto;}
+.awards .col-sm-4{ padding-bottom: 40px;}
+.awards .number{font-size:45px; font-weight: 300; color: #fff; line-height: 50px; margin-bottom: 15px; position: relative;}
+.awards .number:after{content: '+';}
+.awards span{color: #ffffff; font-size: 18px; line-height: 23px; display: block; font-weight: 300;}
+.award-row{border-top: 1px dashed #4c4c4c;}
+/*.awards .col-sm-3{border-right: 1px dashed #4c4c4c; padding-bottom: 25px;}*/
+.award-row .col-sm-3{padding-top: 25px; padding-bottom: 15px;}
+.awards .col-sm-3:last-child{border-right:none;}
+.award-row .col-sm-3>*{transition: all 0.6s; -webkit-transition: all 0.6s; -moz-transition: all 0.6s; -ms-transition: all 0.6s; -o-transition: all 0.6s;}
+.clutch span,
+.app-futura span,
+.deloitte span.tech-fast{margin-top: 15px; color: #a8a8a7;}
+.deloitte span.tech-fast{font-size: 18px; line-height: 22px;}
+.award-row .clutch:hover span{color: #1abb9c;}
+.award-row .app-futura:hover span{color: #f26c4f;}
+.award-row .deloitte:hover span.tech-fast{color: #ffffff;}
+.deloitte span.year{color: #a8a8a7; font-size: 15px; line-height: 19px;}
+.award-row .deloitte:hover span.year{color: #96cb3c;}
+/*Portfolio Style*/
+.portfolio {
+  position: relative; 
+  overflow: hidden;
+}
+.portfolio .col-sm-6{
+  padding: 0 140px;
+}
+.right-description .h2,
+.right-description2 .h2{
+  color: #e91e63;
+}
+.right-description p,
+.right-description2 p,
+.left-description2 p{
+  color: #3a3a3a;
+}
+.left-description .contact_us,
+.left-description2 .contact_us{
+  background: #da4756; 
+  color: #fff;
+}
+.left-description .contact_us::before,
+.left-description2 .contact_us::before{ 
+  background: #be2c3b;
+}
+.left-description  .media h5,
+.left-description2  .media h5{
+  color: #de2538;
+}
+.left-description .h2,
+.left-description2 .h2{
+  color: #de2538;
+}
+.portfolio p{
+  color: #1d1e1e; 
+  margin-bottom: 30px;
+}
+.portfolio .learn_more{
+  background:#141414; 
+  color: #fff;
+}
+.portfolio .learn_more::before{ 
+  background: #3b3b3b; 
+}
+.right-description .contact_us,
+.right-description2 .contact_us{
+  background: #e91e63; 
+  color: #fff;
+}
+.right-description .contact_us::before,
+.right-description2 .contact_us::before{ 
+  background: #c80b4b;
+}
+.right-description  .media h5,
+.right-description2  .media h5{
+  color: #e91e63;
+}
+.background-image{
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.background-image .background{
+  background:url(https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2017/03/28095406/mobility-portfolio-screens-all.jpg)no-repeat center center/cover;
+  /*url(../images/mobility-portfolio-screens-all.jpg)no-repeat center center/cover;*/ 
+  height: 100%; 
+  left: -100%; 
+  position: absolute; 
+  top: 0; 
+  width: 400%;
+}
+.p-icon{width: 70px;}
+.background-image .container-bg{
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  left: 50%;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 50%;
+}
+.pin-trigger{
+  height: 100%; 
+  width: 100%;
+}
+.all-portfolio{
+  position: relative;
+}
+.portfolio .col-sm-6{
+  padding: 0 140px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.dream-share {background: url("https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2016/10/25100234/mobility-dreamshare-txt-bg.jpg") no-repeat scroll center center / 100% 100%}
+.dream-share .h2,
+.dream-share p{color: #fff;}
+.dream-share .media h5{color: #009DEB;}
+.dream-share .contact_us {background: #1e9eee; color: #ffffff;}
+.dream-share .learn_more {background: rgba(0, 0, 0, 0);  border: 1px solid #ffffff;color: #ffffff;}
+.dream-share .learn_more::before {background: #1280c5;}
+.dream-share .contact_us::before {background: #1280c5;}
+
+
+.taxi-app{background: url(https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2017/03/28054101/taxi-new-app-bg.jpg) no-repeat center center / 100% 100%;}
+.taxi-app .h2,
+.taxi-app .media h5{color: #fff;}
+.taxi-app p{color: #fbba1e;}
+.taxi-app .contact_us {background: #f4aa11;color: #0a0a0a;}
+.taxi-app .learn_more {background: rgba(0, 0, 0, 0);border: 1px solid #ffffff; color: #ffffff;}
+.taxi-app .contact_us::before {background: #c88a09;}
+.taxi-app .learn_more::before {background: #c38300;}
+
+@media all and (min-width: 1200px){
+.left-description{
+  left: 0; 
+  z-index: 1;
+}
+.left-description2{
+  left: 50%; 
+  opacity: 0;
+}
+.right-description{
+  right: 50%; 
+  opacity: 0;
+}
+.right-description2{
+  right: 50%; 
+  opacity: 0;
+}
+}
+
+/*End Portfolio style*/
+h2{position: relative; padding-bottom: 15px; margin: 0 0 30px;}
+h2:after{position: absolute; content: ''; width: 100px; height: 2px; left: 0; bottom: 0;}
+p{color: #fff;}
+.full-fold,
+.portfolio,
+.fp-tableCell,
+.projects-ins-panel{display: flex; display:-webkit-flex; flex-wrap: wrap;align-content: center; align-items: center;}
+/*#pinContainer{width: 100%; height: 100%; overflow: hidden; position: relative;}*/
+
+.iphone{/*padding: 80px 0;*/ background: #000000;}
+.iphone h5{color: #959494; margin-top: 100px;}
+.iphone h2:after{background: #fff;}
+.iphone .banner-btn .learn_more{color: #fff; background:#070707; border:1px solid #b8b8b8;}
+.iphone .banner-btn .learn_more:before{background:#212020; }
+.iphone .banner-btn .contact_us{color: #404c5c;background:#ffffff;}
+.iphone .banner-btn .contact_us:before{background:#e3e3e3; }
+
+.android{background: url(https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2016/10/14104717/mobility-android-bg.jpg) no-repeat center center/cover; /*padding: 65px 0 100px;*/}
+.android h5{color: #8ad523; margin-top: 100px;}
+.android h2:after{background: #8ad523;}
+.android .banner-btn .contact_us{background: #93de1e; color:#000000; }
+.android .banner-btn .contact_us:before{background: #81cc0c;}
+
+.html5{background: url(https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2016/10/14104740/mobility-html5-bg.jpg)no-repeat center center/cover; overflow: hidden;}
+.html5 h5{color: #ea5f2f;}
+.html5 h2:after{background: #ea5f2f;}
+.html5 .banner-btn .contact_us{color: #fff;background:#ea5f2f; }
+.html5 .banner-btn .contact_us:before{background:#da4e1e; }
+
+.xamarin{background: #000000 url(https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2017/03/28053901/mobility-new-xamarin-bg.jpg)no-repeat center bottom/contain; /*padding: 150px 0 100px;*/}
+.xamarin img{margin-top: 50px;}
+.xamarin h5{color: #3dc0ff;}
+.xamarin h2:after{background: #3dc0ff;}
+.xamarin .banner-btn .contact_us{color: #fff;background:#3dc0ff; }
+.xamarin .banner-btn .contact_us:before{background:#1a9ede; }
+.xamarin a{color: #3dc0ff; text-decoration: none;}
+.xamarin a:hover{ color:#1a9ede;}
+
+.process{background: #ffffff; }
+.process .h2{color: #CA2728; margin-bottom: 15px;}
+.process .dotted-circle{width: 393px; height: 393px; border-radius: 100%; border:2px solid #8d8e8e; display: inline-block; position: absolute; top: 0; bottom: 0; margin: auto; right: 75px;
+transition: all 0.6s; -webkit-transition: all 0.6s;}
+.process .dotted-circle:after,
+.process .dotted-circle:before{position: absolute; content: ''; border-radius: 100%;top: 0; bottom: 0; left: 0; right: 0; margin: auto;}
+.process .dotted-circle:before{width: 372px; height: 372px; border:1px dashed #a4a6a6; }
+.process .dotted-circle:after{width: 353px; height: 353px; border:1px solid #8e8f8f; }
+.process .dotted-circle li{
+  cursor:pointer;
+  width: 88px; 
+  height: 88px; 
+  border-radius: 100%; 
+  background: #2f2e2e; 
+  position: absolute; 
+  box-shadow: inset 0 0 0 2px #000; 
+  z-index: 1; 
+  transition: all 0.6s; 
+  -webkit-transition: all 0.6s;
+}
+.process .dotted-circle li:nth-child(2){right: 100px; top: -20px;}
+.process .dotted-circle li:nth-child(1){right: -30px; bottom: 0; top: 0; margin: auto;}
+.process .dotted-circle li:nth-child(5){right: 100px; bottom: -20px;}
+.process .dotted-circle li:nth-child(4){left: 0; bottom: 40px;}
+.process .dotted-circle li:nth-child(3){top: 40px; left: 0;}
+.process .dotted-circle li .fa{line-height: 88px; color: #fff;transition: all 0.6s; -webkit-transition: all 0.6s;}
+.process .dotted-circle li.active,
+.process .dotted-circle li:hover{background: #000;}
+.process .dotted-circle li.active .fa,
+.process .dotted-circle li:hover .fa{color: #fff;}
+
+.process .dotted-circle.active_0{transform: rotate(0deg); -webkit-transform: rotate(0deg);}
+.process .dotted-circle.active_0 li{transform: rotate(0deg); -webkit-transform: rotate(0deg);}
+.process .dotted-circle.active_1{transform: rotate(72deg); -webkit-transform: rotate(72deg);}
+.process .dotted-circle.active_1 li{transform: rotate(-72deg); -webkit-transform: rotate(-72deg);}
+.process .dotted-circle.active_2{transform: rotate(144deg); -webkit-transform: rotate(144deg);}
+.process .dotted-circle.active_2 li{transform: rotate(-144deg); -webkit-transform: rotate(-144deg);}
+.process .dotted-circle.active_3{transform: rotate(215deg); -webkit-transform: rotate(215deg);}
+.process .dotted-circle.active_3 li{transform: rotate(-215deg); -webkit-transform: rotate(-215deg);}
+.process .dotted-circle.active_4{transform: rotate(288deg); -webkit-transform: rotate(288deg);}
+.process .dotted-circle.active_4 li{transform: rotate(-288deg); -webkit-transform: rotate(-288deg);}
+
+.tab-navigation{ width: 15px; height: 100px; position: absolute; left: 0; top:0; bottom: 0; margin:auto;}
+.tab-navigation li a{width: 15px; display: block; height: 15px; border-radius: 100%; /*background: #fff;*/ box-shadow: inset 0 0 0 20px #333134; margin: 5px 0; cursor: pointer; transition: all 0.6s; -webkit-transition: all 0.6s; position: relative;}
+.tab-navigation li a:after{position: absolute; width: 0; height: 0; border-radius: 100%; background: #fff; top: 0; bottom: 0; left: 0; right: 0; margin:auto;z-index: 2; content: '';}
+.tab-navigation li:hover a:after,
+.tab-navigation li.active a:after{width: 9px; height: 9px;}
+.nav-title{font-size: 16px; font-weight: 500; color: #2f2e2e; position: absolute; top: 8px; bottom: 0; left:-5px; margin: auto; height: 20px; line-height: 30px; transform: rotate(-90deg); -webkit-transform: rotate(-90deg);}
+.nav-title:after,
+.nav-title:before{position: absolute; content: ''; width: 1px; height:96px; background: url(https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2016/11/02090915/mobility-process-nav-gradiant.png)no-repeat;
+ right: 0; left: 0; bottom: 0; margin: auto; top: 30px; -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+     -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+         transform: rotate(90deg);
+}
+.nav-title:before{bottom: 25px; top: 0; -webkit-transform: rotate(-90deg);
+   -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+     -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);}
+.tab-navigation > li{position: relative; padding: 0;}
+/*.tab-navigation > li:after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  border-left: 2px dashed #6d6b6e;
+  height: 10px;
+  bottom: -5px;
+  right: -1px;
+  left: 0;
+  margin: auto;
+}*/
+.tab-navigation > li:last-child:after{display: none;}
+.process figure{margin-left: 50px; z-index: 2;position: relative; display: inline-block;}
+.process figure img:not(.cover-image) {bottom: 67px;left: 18px;margin: auto;position: absolute; display: none; transition: all 0.6s; -webkit-transition: all 0.6s;}
+
+.process h3{color: #1a1a1a; font-weight: 600; width: 100%; margin-top: 0; position: relative; padding-bottom: 20px; margin-bottom: 25px;}
+.process h3:after{position: absolute; content: ''; width: 50px; height: 3px; background: #6d6b6e; left: 0; bottom: 0;}
+.process .tab-content p{margin-bottom: 30px; color: #5d5d5d;}
+.process .btn{font-weight: 600; color: #fff; background: #CA2728; border-radius: 2px;}
+.process .tab-content{padding: 0;}
+
+.fp-auto-height, .fp-auto-height .fp-tableCell {height: auto !important;}
+.fp-auto-height footer{width: 100%;}
+.fp-footer .home-footer{margin-top: 0;}
+
+@media all and (max-width: 1600px){
+  .window:after{height: 235px}
+  .window figure {margin: auto;width: 350px;}
+  .html5 figure {margin: auto;width: 300px;}
+  .html5 h5{ margin-top: 80px;}
+  .portfolio .col-sm-6 {padding: 0 95px;}
+  .projects-panel-wrap .col-xs-12 {padding: 0 15%;}
+  .et-left::after{top: 5px; width: 240px;}
+  .et-left img {margin-top: 85px;max-width: 340px;}
+  .our-project-wrapper .banner-btn {margin:30px 0 40px;}
+  .nexg-right img {max-width: 600px;}
+  .rotate-panel figure img {width: 85px;}
+  .portfolio p{margin-bottom: 5px;}
+
+  .process{padding-top: 50px;}
+  .process .cover-image {width: 286px;}
+  .process figure img:not(.cover-image) {bottom: 69px;}
+  .process figure{margin-left: 75px;}
+  .tab-navigation{left: 30px;}
+  .nav-title{left: 20px;}
+}
+
+@media all and (max-width: 1400px){
+  .awards .number{margin-bottom: 5px;}
+  .awards span{font-size: 18px; line-height: 22px;}
+  .portfolio .banner-btn {margin: 20px 0 30px;}
+  .portfolio .media p{margin-bottom: 5px;}
+}
+@media all and (max-width: 1300px){
+  .background-image .background{background-size: 100% 100%;}
+}
+
+@media all and (max-width: 1199px){
+   #banner_box,
+   #mobility-slider,
+   .slide{min-height: 500px;}
+  .awards{padding: 0px 0 45px;}
+  .awards h1+h5{margin-bottom: 20px;}
+  .awards .number{font-size: 45px; line-height: 50px;}
+  .awards .col-sm-4 {padding-bottom: 20px;}
+  .award-row span{font-size: 14px; line-height: 18px;}
+  .award-row .col-sm-3 {padding: 25px 10px 15px;}
+  .full-fold:not(.awards) {padding: 60px 0 30px;}
+  .fp-footer {padding: 20px 0 0 !important;}
+  .full-fold.hidden-pad{padding:20px 0 40px;}
+  .hidden-pad figure{padding: 35px 0 0;}
+  .container-bg.scanner2{left: 0;}
+  .android h5,
+  .iphone h5,
+  .html5 h5{margin-top: 25px;}
+  .html5 figure{width: 250px;}
+  .portfolio .col-sm-6 {padding: inherit;}
+  .deloitte span.tech-fast,
+  .deloitte span.year {font-size: 14px; line-height: 18px;}
+  .projects-panel-wrap, .rotate-panel,
+  .projects-ins-panel{position: static; background: none; overflow: visible;}
+  .projects-panel-wrap.project-left-panel {width: 40%;}
+  .projects-panel-wrap {width: 60%;padding: 0 15px;}
+  .left-description .h2{margin-top: 75px;}
+  .full-fold.our-project-wrapper{padding: 30px 0;}
+  .et-left::after,
+  .et-left::before{display: none;}
+  .et-left img{margin-top: 0;}
+  .projects-panel-wrap .col-xs-12 {padding: 0 15px;}
+  .et-left img{max-width: 290px;}
+  .our-project-wrapper{background: url("https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2016/10/25100234/mobility-dreamshare-txt-bg.jpg")no-repeat center center/cover;}
+  .portfolio .col-sm-6 {position: static;}
+  .portfolio .container-fluid {display: flex;}
+  .portfolio .col-sm-6{flex-wrap: wrap;}
+  .portfolio .col-sm-6>*{width: 100%;}
+  .left-description2,.right-description {display: none!important;}
+}
+@media all and (min-width: 1200px) and (max-width: 1400px){
+  .process .col-md-7 {width: 58.3333%;}
+  .process .col-md-5 {width: 41.6667%;}
+}
+
+@media all and (max-width: 992px){
+  .xamarin img {margin-top: 170px;}
+  .process figure img:not(.cover-image) {bottom: 65px;width: 236px;left: 17px;}
+  .tab-navigation{left: 25px;}
+  .nav-title{left: 15px;}
+  .left-description .h2{margin-top: 0;}
+  .et-right::before{display: none;}
+  .awards .number {font-size: 40px; line-height: 45px;}
+  .awards .col-sm-3{min-height: 125px;}
+  .fp-footer .home-footer{padding-top: 65px;}
+  .awards .usd {left: 0px!important;}
+}
+
+@media all and (max-width: 767px){
+   #banner_box,
+   #mobility-slider,
+   .slide{min-height: 300px;}
+   .banner-btn{text-align: center;}
+   .progress-container{width: 120px; bottom: 10px;}
+   .progress{width: 25px;}
+   .projects-panel-wrap{width: 100%;}
+  .awards .number {font-size:42px;line-height: 46px;}
+  .awards .col-xs-6{min-height: 128px; border-bottom: 1px dashed rgb(76, 76, 76);}
+  .award-row{border:none;}
+  .awards .col-sm-3:nth-child(2n+1),
+  .award-row .col-sm-3:nth-child(2n){border-right:none;}
+  .award-row .col-sm-3:nth-child(2n+1){border-right:1px dashed rgb(76, 76, 76);}
+  .awards span {font-size: 14px;line-height: 18px;}
+  .awards .col-sm-3 {padding: 25px 10px 15px;}
+ .full-fold:not(.awards){padding: 20px 0;}
+  .xamarin{background: #000;}
+  .xamarin img {margin-top: 0;}
+  .nav-title{position: relative; left: 0; -webkit-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+       -o-transform: rotate(0deg);
+          transform: rotate(0deg);}
+  .tab-navigation{position: relative; display: inline-block; height: auto; width: auto; margin: 10px 0; left: 0;}
+  .tab-navigation li{display: inline-block;}
+  .process .tab-content h5{margin-top: 20px;}
+  .tab-navigation li a{width: 25px; height: 25px; box-shadow: 0 0 0 15px rgb(51, 49, 52) inset}
+  .tab-navigation li:hover a::after, .tab-navigation li.active a::after {height: 19px; width: 19px;}
+  .tab-navigation > li::after,
+  .nav-title{display: none;}
+  .process .h2{margin-top: 0;}
+  .fp-footer .home-footer{padding-top: 15px;}
+  .portfolio .container-fluid{display: block;}
+  .awards .usd {left: 20px!important;}
+  
+}
+/*updated css for award section*/
+.awards .usd {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color:#fff;
+}
+.awards .middle-col .row,.awards .end-col .row > div{
+  border-bottom: 1px dashed #4c4c4c;
+}
+.awards .middle-col .row > div{
+  border-right: 1px dashed #4c4c4c;
+  min-height: 110px;
+}
+.awards .middle-col .row > div:first-child{
+  border-left: 1px dashed #4c4c4c;
+}
+.awards .middle-col .row:last-child,.awards .end-col .row > div:last-child {
+  border-bottom: none;
+}
+.awards .award-col{
+  padding:10px 5px;
+}
+.awards .award-col span{
+  text-transform: uppercase;
+}
+.awards .end-col{
+  margin-top:25px;
+}
+/*.awards .end-col .award-col{
+  padding-bottom: 30px;
+}*/
+.awards .tech-fast{
+  margin-top:15px;
+}
+.awards .deloitte:hover span.year{
+  color: #96cb3c;
+}
+.awards .clutch:hover span {
+    color: #1abb9c;
+}
+.awards .clutch:hover span {
+    color: #1abb9c;
+}
+.awards .app-futura:hover span{
+  color: #f26c4f;
+}
+.awards .recovendor:hover span{
+  color: #F6103D;
+}
+
+.awards .g2crowd:hover span{
+   color: #456474;
+  }
+
+.awards .web-awards:hover span{
+  color: #CC902D;
+}
+.awards .extract:hover span.year{
+  color: #3DD2A0;
+}
+.awards .mobbed-io:hover span.year{
+  color: #F6BA20;
+}
+/*.awards .topdev:hover span{
+  color: #3053AB;
+}*/
+.awards .what-tech:hover span.year{
+  color: #FAE17C;
+}
