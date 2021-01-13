@@ -2442,6 +2442,21 @@ input {
   float: left;
 }
 
+
+/*---------------------------------------------------------------------
+color pallet Style-2
+-----------------------------------------------------------------------*/
+.color-palette.style-three .media { display: block; padding: 30px; position: relative; z-index: 0 }
+.color-palette.style-three.purple-hover:after, .color-palette.style-three.org-hover:after { display: none }
+.color-palette.style-three .circle-style { position: absolute; left: 0; top: 0; }
+.color-palette.style-three .media-body { margin-top: 120px; }
+.color-palette.style-three .circle-icon { width: 120px; height: 120px; line-height: 120px; }
+.color-palette.style-three  .circle-icon { position: inherit; }
+.color-palette.style-three { padding: 0; }
+.contact-box .color-palette.style-three { padding: 0; min-height: 282px;}
+.color-palette.style-three:before{z-index: 0;}
+.color-palette.style-three .circle-icon:before { border-top-left-radius: 6px; width: 120px; height: 120px; left: 0px; top: 0px; }
+
 /*---------------------------------------------------------------------
  Footer
 -----------------------------------------------------------------------*/

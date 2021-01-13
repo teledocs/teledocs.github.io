@@ -67,7 +67,197 @@
 			border: 2px solid #708bc6;
 		}
 
-		/* footer css */
+		/* Form */
+		label {
+			color: #1e1e1e;
+			margin-bottom: 0;
+		}
+
+		input,
+		input[type=text],
+		input[type=email],
+		input[type=search],
+		input[type=password],
+		textarea {
+			width: 100%;
+			float: left;
+			padding: 0 15px;
+			height: 48px;
+			line-height: 48px;
+			background: #ffffff;
+			border: 1px solid #eff1fe;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+			color: #8e989f;
+			transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-ms-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			-webkit-transition: all 0.5s ease-in-out;
+		}
+
+		select {
+			border: 1px solid rgba(36, 38, 43, 0.14);
+			background: #ffffff;
+			line-height: 48px;
+			height: 48px;
+			padding: 0 10px;
+			width: 100%;
+			color: #8e989f;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-ms-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			-webkit-transition: all 0.5s ease-in-out;
+		}
+
+		textarea {
+			padding: 0 15px;
+			height: 150px;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+		}
+
+		input:focus,
+		input[type=text]:focus,
+		input[type=email]:focus,
+		input[type=search]:focus,
+		input[type=password]:focus,
+		textarea:focus,
+		select:focus {
+			border-color: #a37cfc;
+			box-shadow: none;
+			outline: none;
+		}
+
+		input::-webkit-input-placeholder {
+			color: inherit;
+		}
+
+		input::-moz-placeholder {
+			color: inherit;
+		}
+
+		input:-ms-input-placeholder {
+			color: inherit;
+		}
+
+		textarea::-webkit-input-placeholder {
+			color: inherit;
+		}
+
+		textarea::-moz-placeholder {
+			color: inherit;
+		}
+
+		textarea:-ms-input-placeholder {
+			color: inherit;
+		}
+
+		input[type=email]::-webkit-input-placeholder {
+			color: inherit;
+		}
+
+		input[type=email]::-moz-placeholder {
+			color: inherit;
+		}
+
+		input[type=email]:-ms-input-placeholder {
+			color: inherit;
+		}
+
+		input[type=submit],
+		.contact-form .cfield input[type=submit] {
+			color: #ffffff;
+			background: #a37cfc;
+			cursor: pointer;
+			margin-bottom: 0;
+			height: auto;
+			line-height: 26px !important;
+			padding: 11px 30px;
+			font-size: 1em;
+			line-height: 2;
+			border: none;
+			position: relative;
+			display: inline-block;
+			width: auto;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 4px;
+			cursor: pointer;
+			transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-ms-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			-webkit-transition: all 0.5s ease-in-out;
+		}
+
+		input[type=submit]:hover,
+		.contact-form .cfield input[type=submit]:hover {
+			color: #ffffff;
+			background: #1e1e1e;
+			outline: none;
+		}
+
+		input[type=checkbox] {
+			width: auto;
+			margin-right: 10px;
+			line-height: 2;
+			height: 32px;
+		}
+
+		.comments-area blockquote {
+			background: #ffffff;
+		}
+
+		.comments-area table td,
+		.comments-area table th {
+			border: 1px solid #1e1e1e;
+		}
+
+		.wp-block-button__link {
+			padding: 10px 30px;
+			font-size: 16px;
+		}
+
+		.error {
+			color: #ff0000 !important;
+		}
+
+		div.wpcf7-response-output {
+			display: none;
+		}
+
+		.wpcf7-form .cfield .wpcf7-not-valid {
+			border: 1px solid #f00;
+		}
+
+		.site-content {
+			display: inline-block;
+			width: 100%;
+			float: left;
+		}
+
+		.vc_parallax {
+			overflow: hidden !important;
+		}
+
+		div.wpcf7-mail-sent-ok {
+			display: block;
+			position: absolute;
+			left: 23px;
+			right: 0;
+			bottom: -8px;
+			border: none;
+			color: #398f14;
+		}
 	</style>
 
 
@@ -143,7 +333,7 @@
 	<!-- Banner Section -->
 
 	<!-- Main Content -->
-	<div class="main-content">
+	<!-- <div class="main-content">
 		<section>
 			<div class="container">
 				<div class="row">
@@ -172,9 +362,7 @@
 								</p>
 								<br><br><br>
 
-								<!-- <a class="" style="color: rgb(224, 93, 31);"><img src="images/contact_us.png"
-										style="visibility: visible; opacity: 1;"></a> -->
-
+								
 
 
 
@@ -240,7 +428,7 @@
 										href="http://maps.google.ca/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=75+International+Blvd,+Toronto,+ON+&amp;aq=&amp;sll=43.676222,-79.580884&amp;sspn=0.013191,0.03386&amp;ie=UTF8&amp;hq=&amp;hnear=75+International+Blvd,+Toronto,+Toronto+Division,+Ontario+M9W+6L9&amp;t=m&amp;z=14&amp;ll=43.678006,-79.585986"
 										style="color:#e05d1f;text-align:left" target="_blank">View Larger
 										Map</a></small>
-								<!-- <div id="gmap_contact" style="width:100%; height:100%;"></div>-->
+								
 								<div class="clr"></div>
 							</div>
 							<div class="clr"></div>
@@ -258,8 +446,104 @@
 			</div>
 		</section>
 
+	</div> -->
+	<div class="main-content">
+		<section>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-6">
+						<div class="color-palette style-three wow fadeInUp   text-left purple-hover"
+							data-wow-delay="0.4s"
+							style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+							<div class="media">
+								<div class="circle-style">
+									<div class="circle-icon">
+										<i aria-hidden="true" class="flaticon flaticon-location"></i>
+									</div>
+								</div>
+								<div class="media-body">
+									<h5 class="color-text mb-2">Address</h5>
+									<p class="mb-0">75 International Blvd., Suite 302
+										Toronto Ontario M9W 6L7
+										Canada</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="color-palette style-three wow fadeInUp   text-left org-hover" data-wow-delay="0.6s"
+							style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+							<div class="media">
+								<div class="circle-style">
+									<div class="circle-icon">
+										<i aria-hidden="true" class="flaticon flaticon-phone-call"></i>
+									</div>
+								</div>
+								<div class="media-body">
+									<h5 class="color-text mb-2">Phone</h5>
+									<p class="mb-0"> +1.905.234.0300</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="color-palette style-three wow fadeInUp   text-left green-hover"
+							data-wow-delay="0.8s"
+							style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+							<div class="media">
+								<div class="circle-style">
+									<div class="circle-icon">
+										<i aria-hidden="true" class="flaticon flaticon-send-mail"></i>
+									</div>
+								</div>
+								<div class="media-body">
+									<h5 class="color-text mb-2">Mail</h5>
+									<p><strong>General</strong>: <a href="mailto:info@comlinkinc.com"
+											style="color: rgb(224, 93, 31);">info@comlinkinc.com</a><br>
+										<strong>Sales</strong>:&nbsp; &nbsp;&nbsp;<a href="mailto:sales@comlinkinc.com"
+											style="color: rgb(224, 93, 31);">sales@comlinkinc.com</a><br>
+										<strong>Support</strong>: <a href="mailto:support@comlinkinc.com"
+											style="color: rgb(224, 93, 31);">support@comlinkinc.com</a>
+										<br><br>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pt-0">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<iframe
+							src="http://maps.google.ca/maps?f=q&source=s_q&hl=en&geocode=&q=75+International+Blvd,+Toronto,+ON+&aq=&sll=43.676222,-79.580884&sspn=0.013191,0.03386&ie=UTF8&hq=&hnear=75+International+Blvd,+Toronto,+Toronto+Division,+Ontario+M9W+6L9&t=m&z=14&ll=43.678006,-79.585986&output=embed"
+							width="600" height="530" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+					</div>
+					<div class="col-lg-6">
+						<h4 class="mb-4">Get in Touch</h4>
+						<form>
+							<div class="row">
+								<div class="col-lg-6"> <input type="text" class="form-control" id="inputName"
+										placeholder="Your Name"> </div>
+								<div class="col-lg-6"> <input type="Email" class="form-control" id="inputEmail"
+										placeholder="Your Email"></div>
+								<div class="col-lg-12"> <input type="text" class="form-control" id="inputSubject"
+										placeholder="Your Subject"></div>
+								<div class="col-lg-12"> <textarea class="form-control" id="exampleFormControlTextarea1"
+										rows="7" placeholder="Your Message"></textarea>
+								</div>
+								<div class="col-lg-12">
+									<a class="button" href="">Send Message</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
 	</div>
-	<!-- Main Content END -->
 	<!-- Main Content END -->
 	<!-- Footer Start -->
 
