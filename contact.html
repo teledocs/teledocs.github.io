@@ -146,8 +146,13 @@
 	<div class="main-content">
 		<section>
 			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						
+					</div>
+				</div>
 				<div class="row justify-content-center">
-					<div class="col-lg-4 col-md-4">
+					<div class="col-lg-6 col-md-6">
 						<div class="left_side_big">
 							<h3 style="font-family: Signika; font-size: 14px; color: rgb(85, 85, 85);">Main Office</h3>
 							<div class="left_side_contact white">
@@ -167,42 +172,12 @@
 								</p>
 								<br><br><br>
 
-								<a class="" style="color: rgb(224, 93, 31);"><img src="images/contact_us.png"
-										style="visibility: visible; opacity: 1;"></a>
+								<!-- <a class="" style="color: rgb(224, 93, 31);"><img src="images/contact_us.png"
+										style="visibility: visible; opacity: 1;"></a> -->
 
 
 
 
-								<!-- Place this tag where you want the skype button to render -->
-								<!-- Define your skype username: skype:USERNAME -->
-								<!--<a href="skype:TEMPLATEACCESS?call"><img src="http://download.skype.com/share/skypebuttons/buttons/call_blue_transparent_70x23.png" style="border: none;" width="70" height="23" alt="Skype Me!" title="Call me with Skype!" /></a>-->
-
-								<!-- DC Social Icons CSS: Add more social buttons from http://www.dcodes.net/2/docs/social_icons.html  -->
-								<!--<link rel="stylesheet" type="text/css" href="http://cdn.dcodes.net/2/social_icons/dc_social_icons.css" />-->
-
-								<br><br>
-
-								<!-- DC Social Icons -->
-								<!--<a class="mail_teeny dc_social_teeny" title="email" href="#">email</a>
-					  <a class="skype_teeny dc_social_teeny" title="skype" href="#">skype</a>
-					  <a class="facebook_teeny dc_social_teeny" title="facebook" href="#">facebook</a>
-					  <a class="twitter_teeny dc_social_teeny" title="twitter" href="#">twitter</a>
-					  <a class="linkedin_teeny dc_social_teeny" title="linkedin" href="#">linkedin</a>
-					  <a class="googleplus_teeny dc_social_teeny" title="google+" href="#">google+</a>
-					  -->
-								<br><br>
-
-								<!-- DC Twitter Count Start -->
-								<!-- Define your twitter username after: ?screen_name= -->
-								<!--<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/follow_button.html?screen_name=TEMPLATEACCESS&show_count=true&show_screen_name=false&lang=en" style="width:240px; height:25px;"></iframe>-->
-								<!-- DC Twitter Count End -->
-
-								<br><br>
-
-								<!-- DC Facebook Likes Box Start -->
-								<!-- Define your facebook page url: likebox.php?href=http://www.facebook.com/page-or-username -->
-								<!--<iframe src="http://www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/TemplateAccess&width=240&height=258&colorscheme=light&show_faces=true&border_color&stream=false&header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:76%; height:350px;" allowTransparency="true"></iframe>-->
-								<!-- DC Facebook Likes Box End -->
 
 
 
@@ -212,68 +187,77 @@
 							<div class="clr"></div>
 						</div>
 					</div>
-					<div class="col-lg-8 col-md-8">
-						<div class="right_side_big">
-							<h2 style="font-family: Signika; font-size: 16px; color: rgb(85, 85, 85);">Get In Touch With
-								Us</h2>
-							<div class="clr"></div>
-							<div class="right_side">
-								<div class="maps_view">
-									<iframe width="600" height="350" frameborder="0" scrolling="no" marginheight="0"
-										marginwidth="0"
-										src="http://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=75+International+Blvd,+Toronto,+ON+&amp;aq=&amp;sll=43.676222,-79.580884&amp;sspn=0.013191,0.03386&amp;ie=UTF8&amp;hq=&amp;hnear=75+International+Blvd,+Toronto,+Toronto+Division,+Ontario+M9W+6L9&amp;t=m&amp;z=14&amp;ll=43.678006,-79.585986&amp;output=embed"></iframe><br><small><a
-											href="http://maps.google.ca/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=75+International+Blvd,+Toronto,+ON+&amp;aq=&amp;sll=43.676222,-79.580884&amp;sspn=0.013191,0.03386&amp;ie=UTF8&amp;hq=&amp;hnear=75+International+Blvd,+Toronto,+Toronto+Division,+Ontario+M9W+6L9&amp;t=m&amp;z=14&amp;ll=43.678006,-79.585986"
-											style="color:#e05d1f;text-align:left" target="_blank">View Larger
-											Map</a></small>
-									<!-- <div id="gmap_contact" style="width:100%; height:100%;"></div>-->
+					<div class="col-lg-6 col-md-6">
+						<form action="contact.php" method="post" id="contactform">
+							<ol>
+								<li>
+									<label for="name">Name*</label>
+									<input id="name" name="name" class="text" style="border-radius: 4px;">
+								</li>
+								<li>
+									<label for="email">Email*</label>
+									<input id="email" name="email" class="text" style="border-radius: 4px;">
+								</li>
+								<li>
+									<label for="url">Website</label>
+									<input id="url" name="web" class="text" style="border-radius: 4px;">
+								</li>
+								<li>
+									<label for="subject">Subject*</label>
+									<input id="subject" name="subject" class="text" style="border-radius: 4px;">
+								</li>
+								<li>
+									<label for="message">Message*</label>
+									<textarea id="message" name="message" rows="6" cols="50"
+										style="border-radius: 4px;"></textarea>
+								</li>
+								<li class="buttons">
+									<input type="image" name="imageField" id="imageField" src="images/sub.png"
+										class="send" style="border-radius: 4px;">
 									<div class="clr"></div>
-								</div>
-								<div class="clr"></div>
-								<br><br><br><br>
-								<p>Our friendly customer service representatives are committed to answering all your
-									questions and meeting any need you may have.
-									We'd love to hear from you! </p>
-								<div class="bg"></div>
-								<form action="contact.php" method="post" id="contactform">
-									<ol>
-										<li>
-											<label for="name">Name*</label>
-											<input id="name" name="name" class="text" style="border-radius: 4px;">
-										</li>
-										<li>
-											<label for="email">Email*</label>
-											<input id="email" name="email" class="text" style="border-radius: 4px;">
-										</li>
-										<li>
-											<label for="url">Website</label>
-											<input id="url" name="web" class="text" style="border-radius: 4px;">
-										</li>
-										<li>
-											<label for="subject">Subject*</label>
-											<input id="subject" name="subject" class="text" style="border-radius: 4px;">
-										</li>
-										<li>
-											<label for="message">Message*</label>
-											<textarea id="message" name="message" rows="6" cols="50"
-												style="border-radius: 4px;"></textarea>
-										</li>
-										<li class="buttons">
-											<input type="image" name="imageField" id="imageField" src="images/sub.png"
-												class="send" style="border-radius: 4px;">
-											<div class="clr"></div>
-										</li>
-									</ol>
-								</form>
-								<div class="clr"></div>
-							</div>
-							<div class="clr"></div>
-						</div>
+								</li>
+							</ol>
+						</form>
+
+
 					</div>
 
 				</div>
 			</div>
 		</section>
-		
+		<section>
+			<div class="container">
+				<div class="col-lg-12 col-md-12">
+					<div class="right_side_big">
+						<h2 style="font-family: Signika; font-size: 16px; color: rgb(85, 85, 85);">Get In Touch With
+							Us</h2>
+						<div class="clr"></div>
+						<div class="right_side">
+							<div class="maps_view">
+								<iframe width="600" height="350" frameborder="0" scrolling="no" marginheight="0"
+									marginwidth="0"
+									src="http://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=75+International+Blvd,+Toronto,+ON+&amp;aq=&amp;sll=43.676222,-79.580884&amp;sspn=0.013191,0.03386&amp;ie=UTF8&amp;hq=&amp;hnear=75+International+Blvd,+Toronto,+Toronto+Division,+Ontario+M9W+6L9&amp;t=m&amp;z=14&amp;ll=43.678006,-79.585986&amp;output=embed"></iframe><br><small><a
+										href="http://maps.google.ca/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=75+International+Blvd,+Toronto,+ON+&amp;aq=&amp;sll=43.676222,-79.580884&amp;sspn=0.013191,0.03386&amp;ie=UTF8&amp;hq=&amp;hnear=75+International+Blvd,+Toronto,+Toronto+Division,+Ontario+M9W+6L9&amp;t=m&amp;z=14&amp;ll=43.678006,-79.585986"
+										style="color:#e05d1f;text-align:left" target="_blank">View Larger
+										Map</a></small>
+								<!-- <div id="gmap_contact" style="width:100%; height:100%;"></div>-->
+								<div class="clr"></div>
+							</div>
+							<div class="clr"></div>
+							<br><br><br><br>
+							<p>Our friendly customer service representatives are committed to answering all your
+								questions and meeting any need you may have.
+								We'd love to hear from you! </p>
+							<div class="bg"></div>
+
+							<div class="clr"></div>
+						</div>
+						<div class="clr"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 	</div>
 	<!-- Main Content END -->
 	<!-- Main Content END -->
