@@ -2446,16 +2446,58 @@ input {
 /*---------------------------------------------------------------------
 color pallet Style-2
 -----------------------------------------------------------------------*/
-.color-palette.style-three .media { display: block; padding: 30px; position: relative; z-index: 0 }
-.color-palette.style-three.purple-hover:after, .color-palette.style-three.org-hover:after { display: none }
-.color-palette.style-three .circle-style { position: absolute; left: 0; top: 0; }
-.color-palette.style-three .media-body { margin-top: 120px; }
-.color-palette.style-three .circle-icon { width: 120px; height: 120px; line-height: 120px; }
-.color-palette.style-three  .circle-icon { position: inherit; }
-.color-palette.style-three { padding: 0; }
-.contact-box .color-palette.style-three { padding: 0; min-height: 282px;}
-.color-palette.style-three:before{z-index: 0;}
-.color-palette.style-three .circle-icon:before { border-top-left-radius: 6px; width: 120px; height: 120px; left: 0px; top: 0px; }
+.color-palette.style-three .media {
+  display: block;
+  padding: 30px;
+  position: relative;
+  z-index: 0
+}
+
+.color-palette.style-three.purple-hover:after,
+.color-palette.style-three.org-hover:after {
+  display: none
+}
+
+.color-palette.style-three .circle-style {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.color-palette.style-three .media-body {
+  margin-top: 120px;
+}
+
+.color-palette.style-three .circle-icon {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+}
+
+.color-palette.style-three .circle-icon {
+  position: inherit;
+}
+
+.color-palette.style-three {
+  padding: 0;
+}
+
+.contact-box .color-palette.style-three {
+  padding: 0;
+  min-height: 282px;
+}
+
+.color-palette.style-three:before {
+  z-index: 0;
+}
+
+.color-palette.style-three .circle-icon:before {
+  border-top-left-radius: 6px;
+  width: 120px;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+}
 
 /*---------------------------------------------------------------------
  Footer
@@ -3756,54 +3798,1382 @@ section.solution-box .row.flex {
   width: 100%;
 }
 
-.texbox {
+/* .texbox {
   padding: 60px;
+} */
+
+
+
+/*---------------------------------------------------------------------
+Desctop & Mobile View section scroll css
+-----------------------------------------------------------------------*/
+
+.banner {
+  width: 100%;
+  float: left;
+  margin: 100px 0 50px;
+  background-color: #fff;
 }
 
-
-
-
-
-@media (max-width: 1600px) {
-  .bannersec {
-    padding: 16rem 0 8rem
-  }
+.banner-img {
+  /* max-width: 620px; */
+  width: 100%;
 }
 
-@media (max-width: 1440px) {
-  .bannersec {
-    padding: 8em 0 6em;
-  }
+.banner-content {
+  width: 100%;
+  float: left;
 }
 
-@media (max-width: 1399px) {
-  .bannersec {
-    padding: 4em 0 3em;
-  }
+.banner-headings-area h2 {
+  font-size: 40px;
+  margin: 12px 0;
+  font-family: "Conv_orkney.medium";
+  color: #f44270;
 }
 
-@media (min-width: 992px) {
-  /* .bannersec {
-    padding: 8rem 0 6rem;
-    height: auto;
-  } */
+.banner-company-info-area {
+  width: 100%;
+  float: left;
 }
+
+.banner-headings-area {
+  width: 100%;
+  float: left;
+  margin: 0 0 10px;
+  padding: 40px 0 0;
+}
+
+.banner-company-info-area ul {
+  list-style-type: disc;
+  width: 100%;
+  float: left;
+  margin: 0 0 20px;
+  padding-left: 20px;
+}
+
+.banner-company-info-area ul li {
+  list-style-type: disc;
+  color: #000;
+  font-family: "Conv_orkney.regular";
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.banner-company-info-area div {
+  font-family: "Conv_orkney.light";
+  font-size: 23px;
+  margin: 0 0 15px;
+  line-height: 1.3;
+}
+
+.banner-company-info-area div h1 {
+  font-size: 22px;
+  color: #f44270;
+  font-family: "Conv_orkney.regular";
+  margin-top: 6px;
+}
+
+.banner-company-info-area p {
+  font-size: 15px;
+  color: #000;
+  font-family: "Conv_orkney.light";
+  margin: 0 0 35px;
+}
+
+.banner-company-info-area p {
+  font-size: 18px;
+  color: #000;
+  font-family: "Conv_orkney.light";
+  margin: 0px 0 44px;
+  clear: both;
+  line-height: 1.3;
+}
+
+.banner-company-info-area p b {
+  font-family: "Conv_orkney.medium";
+}
+
+.banner-company-info-area a {
+  background: linear-gradient(to right, #f8587e 47%, #f8616d 67%);
+  padding: 14px 39px;
+  font-family: "Conv_orkney.regular";
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -o-border-radius: 9px;
+  border-radius: 9px;
+  color: #fff;
+  margin: 0px 0 0 90px;
+  clear: both;
+  font-weight: 300;
+  -webkit-box-shadow: 0px 11px 21px -4px #0000009e;
+  -moz-box-shadow: 0px 11px 21px -4px #0000009e;
+  -ms-box-shadow: 0px 11px 21px -4px #0000009e;
+  -o-box-shadow: 0px 11px 21px -4px #0000009e;
+  box-shadow: 0px 11px 21px -4px #0000009e;
+  font-size: 19px;
+}
+
+.banner-company-info-area a:hover {
+  text-decoration: none;
+  background: linear-gradient(to left, #f8587e 47%, #f8616d 67%);
+}
+
+.banner-headings-area h3 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 50px;
+  font-family: "Conv_orkney.light";
+  color: #000;
+}
+
+.client-logo-wraper,
+.ripnersAbout-wraper {
+  width: 100%;
+  float: left;
+  padding: 60px 0 80px;
+  -webkit-box-shadow: -8px 25px 141px -74px #000000bf inset;
+  -moz-box-shadow: -8px 25px 141px -74px #000000bf inset;
+  -ms-box-shadow: -8px 25px 141px -74px #000000bf inset;
+  box-shadow: -8px 25px 141px -74px #000000bf inset;
+}
+
+.companyinfo-wraper {
+  width: 100%;
+  float: left;
+  padding: 20px 0 140px;
+}
+
+.client-logo-wraper-info,
+.ripnersAbout-wraper-info {
+  width: 100%;
+  float: left;
+}
+
+.client-logo-wraper-info h2,
+.ripnersAbout-wraper-info h2,
+.home-work-press-wraper-info h2,
+.home-our-recognitions-info-wrap h2,
+.happyface-client-info-wrap h2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Conv_orkney.regular";
+  margin-bottom: 20px;
+}
+
+.home-work-press-wraper-info h6 {
+  text-align: center;
+  font-size: 22px;
+  padding: 10px 0 0;
+  font-family: "Conv_orkney.regular";
+  margin: 0 0 20px;
+  font-style: italic;
+}
+
+.client-logo-wraper-info h2:before,
+.ripnersAbout-wraper-info h2:before,
+.home-work-press-wraper-info h2:before,
+.home-our-recognitions-info-wrap h2:before,
+.happyface-client-info-wrap h2:before {
+  content: "";
+  width: 100%;
+  max-width: 65px;
+  display: block;
+  margin: 0 auto 20px;
+  border: 1px solid #f44270;
+}
+
+.client-logo-wraper-info h2 span,
+.ripnersAbout-wraper-info h2 span {
+  font-size: 34px;
+  font-family: "Conv_orkney.medium";
+  color: #f44270;
+  position: relative;
+}
+
+.client-logo-wraper-info h2 span:after,
+.ripnersAbout-wraper-info h2 span:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: #f44270;
+  bottom: 6px;
+  height: 2px;
+  left: 0;
+  opacity: 0.9;
+  right: 0;
+}
+
+.client-logo-wraper-info>p,
+.home-work-press-wraper-info>p,
+.ripnersAbout-wraper-info p {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Conv_orkney.light";
+  text-align: center;
+}
+
+.company-logo-section {
+  width: 100%;
+  float: left;
+  padding: 30px 100px 0;
+}
+
+.company-logo-mobile-section {
+  display: none;
+}
+
+.logo-item {
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  margin: 15px 0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 17px 0 #00000038;
+  -moz-box-shadow: 0px 0px 17px 0 #00000038;
+  -ms-box-shadow: 0px 0px 17px 0 #00000038;
+  box-shadow: 0px 0px 17px 0 #00000038;
+  height: 130px;
+}
+
+.logo-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.ripeners2bx-wrap {
+  width: 100%;
+  float: left;
+  padding: 45px 0 30px;
+}
+
+.homeAbout-riepenersbox {
+  width: 47%;
+  float: left;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 17px 0 #00000038;
+  -moz-box-shadow: 0px 0px 17px 0 #00000038;
+  -ms-box-shadow: 0px 0px 17px 0 #00000038;
+  box-shadow: 0px 0px 17px 0 #00000038;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  padding: 30px;
+  min-height: 455px;
+}
+
+.homeAbout-riepenersbox:nth-child(1) {
+  margin-right: 3%;
+}
+
+.homeAbout-riepenersbox:nth-child(2) {
+  margin-left: 3%;
+}
+
+.homeAbout-riepenersbox h4 {
+  font-size: 22px;
+  font-family: "Conv_orkney.regular";
+  margin: 0 0 7px;
+}
+
+.homeAbout-riepenersbox h4 span {
+  color: #f44270;
+  font-size: 27px;
+  font-family: "Conv_orkney.medium";
+  position: relative;
+}
+
+.homeAbout-riepenersbox h4 span:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: #f44270;
+  bottom: 0;
+  height: 1px;
+  left: 0;
+  opacity: 0.9;
+  right: 0;
+}
+
+.homeAbout-riepenersbox img {
+  margin: 0 auto;
+}
+
+.homeAbout-riepenersbox-info {
+  width: 100%;
+  float: left;
+}
+
+.homeAbout-riepenersbox-info p {
+  font-size: 16px;
+  font-family: "Conv_orkney.light";
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.project-counter-wraper {
+  width: 100%;
+  float: left;
+  padding: 60px 0;
+  background-color: #fff8f9;
+}
+
+.icon-javascript.icon-js {
+  font-size: 39px;
+  padding: 19px 0 !important;
+}
+
+.left-counter-info-box {
+  width: 100%;
+  float: left;
+}
+
+.left-heading-info-box {
+  width: 100%;
+  float: left;
+}
+
+.left-heading-info-box h2 {
+  font-size: 26px;
+  font-family: "Conv_orkney.medium";
+  line-height: 1.3;
+  margin: 0 0 40px;
+}
+
+.left-heading-info-box>h2>span {
+  font-size: 19px;
+  font-family: "Conv_orkney.regular";
+}
+
+.left-heading-info-box p {
+  font-size: 18px;
+  font-family: "Conv_orkney.light";
+  line-height: 1.5;
+  margin: 0 0 55px;
+}
+
+a.btn {
+  color: #fff;
+  font-size: 19px;
+  font-family: "Conv_orkney.regular";
+  background: linear-gradient(to right, #f8587e 47%, #f8616d 67%);
+  padding: 13px 35px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -o-border-radius: 9px;
+  border-radius: 9px;
+  margin: 0 0 0 71px;
+}
+
+a.btn:hover {
+  background: linear-gradient(to left, #f8587e 47%, #f8616d 67%);
+  color: #fff;
+}
+
+.left-heading-info-box h2:before {
+  content: "";
+  width: 65px;
+  height: 2px;
+  display: block;
+  margin: 0 0 20px;
+  background-color: #f44270;
+}
+
+.right-project-counter-box {
+  width: 100%;
+  float: left;
+}
+
+.company-dtails-counter {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.custom-company-logo-icon {
+  position: absolute;
+  top: -98px;
+  right: -50px;
+  z-index: 999;
+  max-width: 150px;
+}
+
+.counter-number-box {
+  width: 210px;
+  height: 210px;
+  text-align: center;
+  background-color: #fff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 10px -1px;
+  -moz-box-shadow: 0px 0px 10px -1px;
+  -ms-box-shadow: 0px 0px 10px -1px;
+  -o-box-shadow: 0px 0px 10px -1px;
+  box-shadow: 0px 0px 10px -1px;
+  padding: 82px 0;
+  float: left;
+}
+
+.counter-number-box {
+  width: 190px;
+  height: 190px;
+  text-align: center;
+  background-color: #fff;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -o-border-radius: 14px;
+  border-radius: 14px;
+  -webkit-box-shadow: 0px 0px 25px -1px #3535353d;
+  -moz-box-shadow: 0px 0px 25px -1px #3535353d;
+  -ms-box-shadow: 0px 0px 25px -1px #3535353d;
+  -o-box-shadow: 0px 0px 25px -1px #3535353d;
+  box-shadow: 0px 0px 25px -1px #3535353d;
+  padding: 65px 0;
+  float: left;
+  margin: 0 30px;
+  position: relative;
+}
+
+.counter {
+  width: 50%;
+  font-size: 40px;
+  color: #f44270;
+  font-family: "Conv_orkney.medium";
+  margin: -25px 0 0 -55px;
+  display: inline-block;
+  position: relative;
+}
+
+.plusicon {
+  font-size: 40px;
+  color: #f44270;
+  font-family: "Conv_orkney.medium";
+  margin: -25px 0 0px;
+  display: inline-block;
+}
+
+.plusicon:after {
+  content: "+";
+  position: absolute;
+  right: -17px;
+}
+
+.counter.millioncount {
+  font-size: 40px;
+  padding: 0px 66px;
+  text-align: center;
+}
+
+.plusicon3 {
+  font-size: 35px;
+  color: #f44270;
+  font-family: "Conv_orkney.medium";
+  margin: -10px 0 0 0;
+}
+
+span.plus-icon {
+  color: #f44270;
+  font-family: "Conv_orkney.medium";
+  font-size: 50px;
+  position: absolute;
+  top: 55px;
+  display: none;
+}
+
+.project-count-box-info,
+.client-count-box-info,
+.developer-count-box-info {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.project-count-box-info p,
+.client-count-box-info p,
+.developer-count-box-info p {
+  font-size: 17px;
+  font-family: "Conv_orkney.light";
+  line-height: 1.3;
+  padding: 0 7px;
+}
+
+.compant-product-list-wraper {
+  width: 100%;
+  float: left;
+  padding: 44px 17px 0 28px;
+}
+
+.company-product {
+  width: 100%;
+  float: left;
+  padding: 22px 20px;
+}
+
+.company-product:hover {
+  background-color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px -1px #3535353d;
+  -moz-box-shadow: 0px 0px 10px -1px #3535353d;
+  -ms-box-shadow: 0px 0px 10px -1px #3535353d;
+  -o-box-shadow: 0px 0px 10px -1px #3535353d;
+  box-shadow: 0px 0px 10px -1px #3535353d;
+  cursor: pointer;
+}
+
+.product-discovery-wraper h2,
+.research-led-wraper h2,
+.building-wraper h2,
+.validating-product-wraper h2 {
+  font-size: 19px;
+  font-family: "Conv_orkney.medium";
+  margin: 0 0 10px;
+}
+
+.product-discovery-wraper p,
+.research-led-wraper p,
+.building-wraper p,
+.validating-product-wraper p {
+  font-size: 17px;
+  font-family: "Conv_orkney.light";
+  line-height: 1.4;
+}
+
+.product-discovery-wraper {
+  width: 100%;
+  float: left;
+  background: url(../images/product.png);
+  background-repeat: no-repeat;
+  background-size: 45px;
+  padding: 0 0 0 100px;
+  background-position: 0 0;
+}
+
+.research-led-wraper {
+  width: 100%;
+  float: left;
+  background: url(../images/research.png);
+  background-repeat: no-repeat;
+  background-size: 42px 51px;
+  padding: 0 0 0 100px;
+  background-position: 0 0;
+}
+
+.building-wraper {
+  width: 100%;
+  float: left;
+  background: url(../images/building.png);
+  background-repeat: no-repeat;
+  background-size: 42px 51px;
+  padding: 0 0 0 100px;
+  background-position: 0 0;
+}
+
+.validating-product-wraper {
+  width: 100%;
+  float: left;
+  background: url(../images/validating.png);
+  background-repeat: no-repeat;
+  background-size: 42px 51px;
+  padding: 0 0 0 100px;
+  background-position: 0 0;
+}
+
+.home-service-wraper {
+  width: 100%;
+  float: left;
+  padding: 60px 0 0;
+  -webkit-box-shadow: -8px 25px 141px -74px #000000bf inset;
+  -moz-box-shadow: -8px 25px 141px -74px #000000bf inset;
+  -ms-box-shadow: -8px 25px 141px -74px #000000bf inset;
+  box-shadow: -8px 25px 141px -74px #000000bf inset;
+}
+
+.home-service-info-wraper-box {
+  width: 100%;
+  float: left;
+}
+
+.home-service-info-wraper {
+  width: 100%;
+  float: left;
+  padding: 0 0 40px 0;
+}
+
+.home-service-info-wraper h2,
+.accomplishments-inner-wraper h2 {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Conv_orkney.regular";
+  margin: 0 0 20px;
+}
+
+.home-service-info-wraper h2:before,
+.accomplishments-inner-wraper h2:before {
+  content: "";
+  width: 100%;
+  max-width: 65px;
+  display: block;
+  margin: 0 auto 20px;
+  border: 1px solid #f44270;
+}
+
+.home-service-info-wraper h2 span,
+.accomplishments-inner-wraper h2 span {
+  font-size: 29px;
+  font-family: "Conv_orkney.medium";
+  position: relative;
+  margin-left: 10px;
+}
+
+.home-service-info-wraper h2 span:after,
+.accomplishments-inner-wraper h2 span:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: #000;
+  bottom: 6px;
+  height: 2px;
+  left: 0;
+  opacity: 0.9;
+  right: 0;
+}
+
+.home-service-info-wraper p {
+  font-size: 17px;
+  font-family: "Conv_orkney.light";
+  line-height: 35px;
+  text-align: center;
+  max-width: 63%;
+  margin: 0 auto;
+}
+
+.home-service-item-wraper {
+  width: 100%;
+  float: left;
+}
+
+.mobile-service-item-wraper {
+  width: 100%;
+  float: left;
+  display: none;
+}
+
+.tabs {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.tab-list {
+  width: 100%;
+  float: left;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+}
+
+.tab {
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px;
+  float: left;
+  width: 160px;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 1rem 1rem;
+  color: #000;
+  font-size: 15px;
+  font-family: "Conv_orkney.regular";
+  text-align: center;
+  background: #feeaf0;
+  height: 160px;
+}
+
+.tab:first-child {
+  margin-left: 0;
+}
+
+.tab:last-child {
+  margin-right: 0;
+}
+
+a.tab {
+  text-decoration: none !important;
+  line-height: normal;
+  position: relative;
+}
+
+a.tab:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  border-top: 12px solid #feeaf0;
+  position: absolute;
+  bottom: -12px;
+  left: 40%;
+}
+
+.tab.active:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  border-top: 12px solid #f44270;
+  position: absolute;
+  bottom: -12px;
+  left: 40%;
+}
+
+.expertiseimg {
+  display: block;
+  margin: 0 auto 10px;
+  font-size: 80px;
+  color: #f44270;
+}
+
+.tab.active {
+  color: #fff;
+  background: #f44270;
+  -webkit-box-shadow: 0px 1px 7px 3px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 1px 7px 3px rgba(0, 0, 0, 0.12);
+  -ms-box-shadow: 0px 1px 7px 3px rgba(0, 0, 0, 0.12);
+  -o-box-shadow: 0px 1px 7px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 7px 3px rgba(0, 0, 0, 0.12);
+}
+
+.tab.active .expertiseimg {
+  color: #fff;
+}
+
+.tab span {
+  min-height: 41px;
+  display: block;
+}
+
+.tab-content {
+  width: 100%;
+  float: left;
+  font-family: "Conv_orkney.light";
+  background: transparent;
+  display: none;
+  text-align: center;
+  padding: 10px 15px 40px;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  color: #000;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.show {
+  display: block;
+}
+
+.tabcontent {
+  position: relative;
+  padding: 0px 0;
+}
+
+.tab_btn {
+  margin-bottom: 0 !important;
+  display: block;
+  color: #fff;
+  font-size: 19px;
+  font-family: "Conv_orkney.regular";
+  background: linear-gradient(to right, #f8587e 47%, #f8616d 67%);
+  text-align: center;
+  max-width: 175px;
+  margin: 0 auto;
+  padding: 12px 5px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -o-border-radius: 9px;
+  border-radius: 9px;
+  margin-top: 25px;
+  -webkit-box-shadow: 0px 11px 21px -4px #0000009e;
+  -moz-box-shadow: 0px 11px 21px -4px #0000009e;
+  -ms-box-shadow: 0px 11px 21px -4px #0000009e;
+  -o-box-shadow: 0px 11px 21px -4px #0000009e;
+  box-shadow: 0px 11px 21px -4px #0000009e;
+}
+
+.tab-list .tab:hover {
+  color: #000;
+}
+
+.tab.active:hover {
+  color: #fff !important;
+}
+
+.accomplishments-wraper {
+  width: 100%;
+  float: left;
+  -webkit-box-shadow: -8px 25px 141px -74px #000000bf inset;
+  -moz-box-shadow: -8px 25px 141px -74px #000000bf inset;
+  -ms-box-shadow: -8px 25px 141px -74px #000000bf inset;
+  -o-box-shadow: -8px 25px 141px -74px #000000bf inset;
+  box-shadow: -8px 25px 141px -74px #000000bf inset;
+  padding: 60px 0 80px;
+}
+
+.accomplishments-inner-wraper {
+  width: 100%;
+  float: left;
+}
+
+.accomplishments-inner-wraper p {
+  font-size: 17px;
+  font-family: "Conv_orkney.light";
+  line-height: 35px;
+  text-align: center;
+}
+
+.accomplishments-project-counter-wraper {
+  width: 100%;
+  float: left;
+  padding: 50px 0;
+}
+
+.accomplishments-project-counter-inner-wrap {
+  width: 100%;
+  float: left;
+  padding: 0 100px;
+}
+
+.accomplishments-project-mobile-counter-inner-wrap {
+  display: none;
+}
+
+.accomplishments-counter-box {
+  width: 33.33%;
+  float: left;
+  cursor: pointer;
+}
+
+.accomplishments-project-box {
+  width: 100%;
+  height: 200px;
+  float: left;
+  background-image: url(../images/project.png);
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  border-right: 2px solid #e4e4e4;
+  background-position: center 40px;
+}
+
+.accomplishments-project-inner-box {
+  width: 100%;
+  float: left;
+  padding: 110px 0 0 0px;
+  text-align: center;
+}
+
+.accomplishments-project-box p {
+  font-size: 20px;
+  font-family: "Conv_orkney.light";
+}
+
+.counter2 {
+  font-size: 25px;
+  font-family: "Conv_orkney.regular";
+  margin: 0 0 5px;
+  position: relative;
+}
+
+.accomplishments-project-inner-box .counter2:after {
+  content: "+";
+  position: absolute;
+  font-size: 26px;
+  font-family: "Conv_orkney.regular";
+  right: 112px;
+  top: -3px;
+}
+
+.counter2:after {
+  content: "+";
+  position: absolute;
+  font-size: 26px;
+  font-family: "Conv_orkney.regular";
+  /* right: 146px; */
+  top: -3px;
+}
+
+.accomplishments-developement-staff-box {
+  width: 100%;
+  height: 100px;
+  float: left;
+  background-image: url(../images/development.png);
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #e4e4e4;
+  background-position: 40px center;
+}
+
+.accomplishments-developement-inner-box {
+  width: 100%;
+  padding: 28px 0 0 112px;
+}
+
+.accomplishments-developement-inner-box p {
+  font-size: 20px;
+  font-family: "Conv_orkney.light";
+}
+
+.accomplishments-satisfied-client-box {
+  width: 100%;
+  height: 100px;
+  float: left;
+  background-image: url(../images/client.png);
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  background-position: 40px center;
+}
+
+.accomplishments-satisfied-client-inner-box {
+  width: 100%;
+  padding: 28px 0 0 111px;
+}
+
+.accomplishments-satisfied-client-inner-box p {
+  font-size: 20px;
+  font-family: "Conv_orkney.light";
+}
+
+.accomplishments-year-exprnce-box {
+  width: 100%;
+  height: 100px;
+  float: left;
+  background-image: url(../images/experience.png);
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  background-position: 40px center;
+  border-bottom: 2px solid #e4e4e4;
+  border-left: 2px solid #e4e4e4;
+}
+
+.accomplishments-year-exprnce-inner-box {
+  width: 100%;
+  padding: 28px 0 0 111px;
+}
+
+.accomplishments-year-exprnce-inner-box p {
+  font-size: 20px;
+  font-family: "Conv_orkney.light";
+}
+
+.accomplishments-nation-served-inner-box {
+  width: 100%;
+  padding: 28px 0 0 111px;
+}
+
+.accomplishments-nation-served-inner-box p {
+  font-size: 20px;
+  font-family: "Conv_orkney.light";
+}
+
+.accomplishments-nation-served-box {
+  width: 100%;
+  height: 100px;
+  float: left;
+  background-image: url(../images/office.png);
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  background-position: 40px center;
+  border-left: 2px solid #e4e4e4;
+}
+
+.home-portfolio {
+  position: relative;
+  padding: 35% 25% 25% 0%;
+}
+
+.mobile-portfolio-wraper {
+  display: none;
+}
+
+.right-portfolio-wrap2 {
+  background-color: #54328d;
+}
+
+.right-portfolio-wrap3 {
+  background-color: #00163f;
+}
+
+.right-portfolio-wrap4 {
+  background-color: lightblue;
+}
+
+.portfolio-left {
+  width: 450px;
+  position: relative;
+  top: 330px;
+  left: 530px;
+  color: #181818;
+  /* right: auto; */
+}
+
+.portfolio-left-desktop {
+  width: 450px;
+  position: relative;
+  top: 330px;
+  left: 680px;
+  color: #181818;
+  /* right: auto; */
+}
+
+.portfolio-left>p {
+  margin-top: 50px;
+  line-height: 26px;
+}
+
+.portfolio-left ul {
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+.portfolio-left ul li {
+  list-style-type: square;
+  margin-left: 15px;
+  margin-bottom: 8px;
+}
+
+.portfolio-right {
+  width: 370px;
+  position: absolute;
+  bottom: 570px;
+  right: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.portfolio-left .top-row {
+  position: relative;
+  padding-left: 99px;
+  margin-bottom: 0;
+}
+
+.portfolio-left .top-row span {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.portfolio-left .top-row h2 {
+  color: #fff;
+  position: relative;
+  text-transform: none;
+  padding-bottom: 10px;
+}
+
+.portfolio-left .top-row h2:before {
+  content: "";
+  width: 180px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  height: 1px;
+}
+
+.portfolio-left .top-row p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.portfolio-right>p {
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 200;
+}
+
+.desktop {
+  width: 45%;
+  position: fixed;
+  left: 15%;
+  right: 0;
+  z-index: 999;
+  top: 20%;
+}
+
+.desktop-video {
+  position: absolute;
+  /* width: 270px; */
+  /* height: 530px; */
+  top: 15px;
+  left: -5px;
+}
+
+.desktop-video img {
+  width: 100%;
+  height: 100%;
+}
+
+.mobile {
+  width: 266px;
+  position: fixed;
+  left: 20%;
+  right: 0;
+  z-index: 999;
+  top: 20%;
+  /* margin: auto; */
+}
+
+.mobile-video {
+  position: absolute;
+  width: 270px;
+  height: 530px;
+  top: 15px;
+  left: -5px;
+}
+
+.mobile-video video {
+  width: 100%;
+}
+
+.project-clip {
+  clip: rect(auto, auto, auto, auto);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.portfolio .social {
+  padding-top: -3px;
+  display: inline-block;
+}
+
+.portfolio .social a {
+  background-color: #fff;
+  float: left;
+  font-size: 30px;
+  text-align: center;
+  width: 53px;
+  height: 53px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  color: #ff8665;
+  line-height: 53px;
+  margin-right: 15px;
+}
+
+.home-portfolio[data-home-project="2"] .social a {
+  color: #c04e99;
+}
+
+.home-portfolio[data-home-project="3"] .social a {
+  color: #fb6d22;
+}
+
+.mobile-frame {
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+
+.mobile-frame img {
+  width: 100%;
+  height: 100%;
+}
+
+.mobile-video img {
+  width: 100%;
+  height: 100%;
+}
+
+.company-portfolio-left-info-box {
+  width: 100%;
+  float: left;
+  padding: 0px 0 0 105px;
+}
+
+.portfolio-info-head {
+  width: 100%;
+  float: left;
+}
+
+.portfolio-logo,
+.portfolio-logo1,
+.portfolio-logo2 {
+  width: 30%;
+  float: left;
+  margin: 0 0 25px 0;
+}
+
+.portfolio-content-wraper {
+  width: 70%;
+  float: left;
+}
+
+.portfolio-content-wraper h2 {
+  color: #000;
+  font-size: 22px;
+  font-family: "Conv_orkney.bold";
+  margin: 0 0 10px;
+}
+
+.portfolio-content-wraper p {
+  color: #000;
+  font-family: "Conv_orkney.regular";
+  font-size: 20px;
+}
+
+.portfolio-content-wraper h2:before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: #f44270;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.portfolio-info {
+  width: 100%;
+  float: left;
+}
+
+.portfolio-info p {
+  color: #000;
+  font-size: 18px;
+  font-family: "Conv_orkney.light";
+  line-height: 26px;
+  margin: 0 0 70px;
+}
+
+.portfolio-info>p>span {
+  font-size: 20px;
+  font-family: "Conv_orkney.medium";
+}
+
+.btn.portfolio-btn {
+  padding: 12px 35px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -o-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.right-poin-text-wraper {
+  width: 100%;
+  float: left;
+  position: absolute;
+  top: 120px;
+  left: 190px;
+}
+
+.point-text-wraper {
+  width: 100%;
+  float: left;
+  background-image: url(../images/check.png);
+  background-repeat: no-repeat;
+  padding: 0 0 0 40px;
+  margin: 45px 0;
+  position: relative;
+}
+
+.point-text-wraper:after {
+  content: "";
+  width: 85px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  left: 0;
+  margin: 40px 0 0 0;
+}
+
+.point-text-wraper:nth-child(3):after {
+  content: "" !important;
+  height: 0;
+}
+
+.point-text-wraper p {
+  font-size: 22px;
+  font-family: "Conv_orkney.regular";
+  color: #fff;
+}
+
+.app-download-link-wraper {
+  width: 100%;
+  float: left;
+  margin: 60px 40px 0;
+}
+
+.app-download-link-wraper>li {
+  list-style: none;
+  float: left;
+  width: 150px;
+  height: auto;
+  padding: 0;
+  margin: 12px 25px 12px 0px;
+  display: table;
+  cursor: pointer;
+}
+
+.app-download-link-wraper>li>a {
+  display: table-cell !important;
+  vertical-align: middle;
+  text-align: center;
+  color: #f26722;
+  font-size: 35px;
+}
+
+a.app-download-link2 {
+  color: #54328d !important;
+}
+
+a.app-download-link3 {
+  color: #00163f !important;
+}
+
+/* <....................portfolio scroll.....................> */
+
+
 
 @media (max-width: 767px) {
   .bannersec {
     padding: 8rem 0 6rem;
     height: auto;
   }
-  .texbox {
+
+  /* .texbox {
     padding: 0px;
-}
+  } */
+
   .texbox h3 {
     font-size: 24px !important;
     margin-top: 20px;
     padding-bottom: 10px;
     color: #272934;
     font-weight: 800;
-}
+  }
+
   .bannertext h1 {
     font-size: 28px !important;
     line-height: 32px !important;
