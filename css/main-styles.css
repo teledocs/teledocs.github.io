@@ -3804,6 +3804,7 @@ section.solution-box .row.flex {
 
 
 
+
 /*---------------------------------------------------------------------
 Desctop & Mobile View section scroll css
 -----------------------------------------------------------------------*/
@@ -4934,7 +4935,7 @@ a.tab:before {
 .mobile {
   width: 266px;
   position: fixed;
-  left: 20%;
+  left: 25%;
   right: 0;
   z-index: 999;
   top: 20%;
