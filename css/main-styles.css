@@ -2654,6 +2654,7 @@ p.trusted_partners {
 }
 
 @media (max-width: 767px) {
+    .heading-block h1 {}
     .bannersec {
         padding: 8rem 0 6rem;
         height: auto;
