@@ -2302,6 +2302,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
     position: relative;
     font-size: 24px;
     color: #21243d;
+    text-transform: capitalize;
 }
 
 .bannersec ul.textbox li:before {
@@ -2483,6 +2484,7 @@ p.trusted_partners {
 }
 
 #doctor {
+    padding: 80px 0;
     /* float: left; */
 }
 
@@ -2538,7 +2540,7 @@ p.trusted_partners {
     text-align: center;
     display: inline-block;
     border: none;
-    /* border-radius: 100px; */
+    border-radius: 0px !important;
     font-size: 20px;
     font-weight: 400;
     width: 260px;
