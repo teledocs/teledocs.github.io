@@ -111,6 +111,10 @@ body {
     overflow-x: hidden;
 }
 
+img {
+    max-width: 100%;
+}
+
 a,
 .button {
     transition: all 0.5s ease-in-out;
@@ -5379,6 +5383,14 @@ a.tab:before {
     font-size: 15px;
     line-height: 27px;
     font-weight: 200;
+}
+
+.left-right-img h2 {
+    color: #212529;
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
 .desktop {

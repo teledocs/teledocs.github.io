@@ -6,7 +6,7 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title> Providers | Teledocs</title>
+	<title>Teledocs | high-quality virtual care solutions</title>
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="images/favicon.ico" />
 	<!-- Bootstrap CSS -->
@@ -20,6 +20,9 @@
 	<link rel="stylesheet" href="css/main-styles.css">
 	<!-- Responsive -->
 	<link rel="stylesheet" href="css/responsive.css">
+
+	<!-- demo css -->
+	<link rel="stylesheet" href="./css/demo.css">
 
 	<!-- Google Tag Manager -->
 	<script>
@@ -39,21 +42,28 @@
 		})(window, document, 'script', 'dataLayer', 'GTM-P8ZV4LD');
 	</script>
 	<!-- End Google Tag Manager -->
-
+	<!--  -->
 	<style>
-
+		.process .btn {
+			font-weight: 600;
+			color: #fff;
+			background: #CA2728;
+			border-radius: 2px;
+		}
 	</style>
 
 </head>
 
 <body class="">
-	<!-- Google Tag Manager (noscript) -->
-	<noscript>
-		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8ZV4LD" height="0" width="0"
-			style="display:none;visibility:hidden">
-		</iframe>
-	</noscript>
-	<!-- End Google Tag Manager (noscript) -->
+	<!-- loading -->
+	<!-- <div id="loading">
+		<div id="loading-center">
+			<div class="loader">
+				<img src="/images/teledoc-logo.png" alt="">
+			</div>
+		</div>
+	</div> -->
+	<!-- loading End -->
 	<!--================================= -->
 	<!-- Header -->
 	<header id="main-header" class="header-main">
@@ -76,33 +86,66 @@
 						</button>
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav mr-auto w-100 justify-content-end">
-								<li class="nav-item">
-									<a class="nav-link" href="./index.html">Home</a>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Platform
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="about-us.html">How it works?</a>
+										<a class="dropdown-item" href="services.html">Features</a>
+										<a class="dropdown-item" href="pricing.html">Integrations</a>
+										<a class="dropdown-item" href="careers.html">Who we serve</a>
+										<a class="dropdown-item" href="faq.html">Why use teledocs</a>
+										<a class="dropdown-item" href="team.html">Partner Program</a>
+									</div>
 								</li>
-
-
-								<li class="nav-item ">
-									<a class="nav-link" href="provider.html">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-1" role="button"
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										Provider
 									</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="patient.html">
-										Patients
-									</a>
-
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="contact.html">Contact</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown-1">
+										<a class="dropdown-item" href="portfolio-2-column.html">Create account</a>
+										<a class="dropdown-item" href="portfolio-3-column.html">Setup Provider group</a>
+										<a class="dropdown-item" href="portfolio-4-column.html">Create patient</a>
+										<a class="dropdown-item" href="portfolio-5-column.html">Book Appointment</a>
+										<a class="dropdown-item" href="portfolio-no-space.html">Get ready for video
+											visit</a>
+										<a class="dropdown-item" href="portfolio-details.html">Create Notes</a>
+										<a class="dropdown-item" href="portfolio-details.html">Create bills and get
+											paid</a>
+									</div>
 								</li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button"
 										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Get started
+										Patients
 									</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
-										<a class="dropdown-item" href="#">As a Provider</a>
-										<a class="dropdown-item" href="#">As a Patient </a>
+										<a class="dropdown-item" href="blog.html">Blog</a>
+										<a class="dropdown-item" href="blog-details.html">Create account</a>
+										<a class="dropdown-item" href="one-column-blog.html">Connect to provider</a>
+										<a class="dropdown-item" href="two-column-blog.html">Book Appointment</a>
+										<a class="dropdown-item" href="three-column-blog.html">Make payment</a>
+										<a class="dropdown-item" href="left-sidebar-grid.html">Get ready for video
+											visit</a>
+										<a class="dropdown-item" href="right-sidebar-grid.html">Medical Records</a>
+									</div>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Pricing</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button"
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Login
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
+										<a class="dropdown-item" href="blog.html">Patient</a>
+										<a class="dropdown-item" href="blog-details.html">Providers</a>
+										<a class="dropdown-item" href="one-column-blog.html">Partner (Reseller)</a>
+
 									</div>
 								</li>
 							</ul>
@@ -112,336 +155,102 @@
 			</div>
 		</div>
 	</header>
-
-	<!-- Desktop view section Provide -->
-	<div class="portfolio hidden-xs d-none d-sm-none d-md-block">
-		<div class="home-portfolio" data-home-project="1">
-			<div class="project-clip">
-				<div class="container prtf4">
-					<div class="portfolio-left wow fadeIn row" style="visibility: visible; animation-name: fadeIn;">
-						<div class="company-portfolio-left-info-box">
-							<div class="portfolio-info-head">
-								<div class="texbox">
-									<h3>Create Account
-									</h3>
-									<p>Patients can create an account with a mobile number or email. App sends activation OPT or links to get started with a platform. Teledocs provider-patient easy to use a mobile application.
-									</p>
-									<div class="btnbox">
-
-									</div>
-								</div>
-
+	<section class="process full-fold fp-section fp-table" data-fp-styles="null" style="height:100vh">
+		<div class="fp-tableCell" style="height: 100%;">
+			<div class="container animatedParent animateOnce">
+				<div class="row">
+					<div class="col-sm-6 col-md-7 col-lg-6 col-xs-12 text-center animated fadeIn go">
+						<div class="dotted-circle hidden-xs hidden-sm animated rollIn go">
+							<ul class="list-unstyled icon-navigation">
+								<li class="active"><i class="fa fa-lightbulb-o fa-3x"></i></li>
+								<li><i class="fa fa-paint-brush fa-3x"></i></li>
+								<li><i class="fa fa-gear fa-3x"></i></li>
+								<li><i class="fa fa-rocket fa-3x"></i></li>
+								<li><i class="fa fa-mixcloud fa-3x"></i></li>
+							</ul>
+						</div>
+						<ul class="list-unstyled tab-navigation" role="tablist">
+							<li class="active"><a href="#requirement" data-toggle="tab" role="tab"></a></li>
+							<li><a href="#development" data-toggle="tab" role="tab"></a></li>
+							<li><a href="#automation" data-toggle="tab" role="tab"></a></li>
+							<li><a href="#marketing" data-toggle="tab" role="tab"></a></li>
+							<li><a href="#delivery" data-toggle="tab" role="tab"></a></li>
+						</ul>
+						<div class="nav-title">NAVIGATION</div>
+						<figure class="hidden-xs pull-left">
+							<img src="https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2016/11/10114533/mobile-png.png"
+								alt="mobile app development Services" class="img-responsive cover-image">
+							<img src="https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2017/03/28053434/mobility-new-process1.jpg"
+								alt="Mobile App Ideation" class="img-responsive" style="display: block">
+							<img src="https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2017/03/28053438/mobility-new-process2.jpg"
+								alt="Mobile App Designing Services" class="img-responsive">
+							<img src="https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2017/03/28053442/mobility-new-process3.jpg"
+								alt="Custom Mobile App Development" class="img-responsive">
+							<img src="https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2017/03/28053446/mobility-new-process4.jpg"
+								alt="Mobile App Deployment Services" class="img-responsive">
+							<img src="https://algoworksupload.s3.amazonaws.com/new-algoworks/wp-content/uploads/2017/03/28053449/mobility-new-process5.jpg"
+								alt="iOS and Android mobile app development services" class="img-responsive">
+						</figure>
+					</div>
+					<div class="col-sm-6 col-md-5 col-lg-6 col-xs-12">
+						<div class="h2">APP DEVELOPMENT <span class="blank">PROCESS</span></div>
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="requirement">
+								<h3>Mobile App Ideation:<br class="hidden-xs"> We explore your idea</h3>
+								<p>Every app starts with an idea. The first step is to deeply analyze the idea and
+									strategize how to get the idea ticking for the best.</p>
+								<p>We here at Algoworks are a team of industry veterans with a combined experience of
+									80+ years in the app development and mobile consulting industry. We bring our
+									experience on the table and help future app owners devise the perfect product
+									strategy for their app.</p>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="development">
+								<h3>Designing The Perfect App:<br class="hidden-xs"> UI/UX done the right way</h3>
+								<p>A good design is what make an app stand out. We understand what it takes to make an
+									app successful and a user-friendly mobile experience comes at the top of list of
+									priorities.</p>
+								<p>We help app owners in strategizing the right feature set, choose the right color and
+									typography elements, and then design and define the whole user experience.</p>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="automation">
+								<h3>Our App Development:<br class="hidden-xs"> Speed. Sharp. Smart.</h3>
+								<p>This is the step where actual application development is done. In this stage we give
+									the functionality to our designs and bring out the first functional prototypes.</p>
+								<p>Once the prototypes are validated, we develop the complete app with all its feature
+									sets and functionalities. We test the application to kick out all the bugs and to
+									make sure that it runs with optimum performance accross all devices and use-cases.
+									Once the app gets an OK from our eagle-eyes, it will be all set to be unleashed into
+									the wild.</p>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="marketing">
+								<h3>Launching the App on Stores</h3>
+								<p>Once we have stabilized the release candidate of the app, it's time to take it live.
+									We here at Algoworks have the experience in deploying hundreds of application and
+									helping app owners in passing all strict standards required by all major app stores.
+								</p>
+								<p>From app store optimizations to app marketing strategies, we will not let you out of
+									sight until we ourselves are satisfied!</p>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="delivery">
+								<h3>Future Scaling of The App: <br class="hidden-xs">Time to think about 2.x</h3>
+								<p>The lifecyle of an app does not end after launching the product. We need to take the
+									app to the next level.</p>
+								<p>We help app owners anaylze the performance of their existing app, and help in
+									preparing strategies for getting better user engagement, finding and developing more
+									features, and preparing a plan for future releases.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<a href="#" class="btn btn-default" id="wt-next">Next <i
+										class="fa  fa-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
-					<!--portfolio-left-->
-					<div class="mobile">
-
-						<!--mobile-frame-->
-						<div class="mobile-video">
-							<img src="images/mobile-img/1st-Create_account.png" alt="EGURUKUL">
-						</div>
-					</div>
-				</div>
-				<div class="right-portfolio-wraper right-portfolio-wrap4">
-
 				</div>
 			</div>
-		</div>
-
-		<div class="home-portfolio" data-home-project="2">
-			<div class="project-clip">
-				<div class="container prtf3">
-					<div class="portfolio-left wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-						<div class="company-portfolio-left-info-box">
-							<div class="portfolio-info-head">
-								<div class="texbox">
-									<h3>Connect to Provider
-									</h3>
-									<p>Teledocs assign unique codes to each provider. Patients can connect to the provider only if they have a code associated with a provider. Platform respects the security of each provider and patient.
-										</p>
-									<div class="btnbox">
-										<!-- <a href="/solutions-for-enterprise/"> Read More</a> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--portfolio-left-->
-					<div class="mobile">
-						<!-- <div class="mobile-frame">
-						  <img src="images/.png" alt="MOBILE APP" />
-						</div> -->
-						<!--mobile-frame-->
-						<div class="mobile-video">
-							<img src="images/mobile-img/2nd.png" alt="itr">
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-		<div class="home-portfolio" data-home-project="3">
-			<div class="project-clip">
-				<div class="container prtf1">
-					<div class="portfolio-left wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-						<div class="company-portfolio-left-info-box">
-							<div class="portfolio-info-head">
-								<div class="texbox">
-									<h3>Book Appointment
-									</h3>
-									<p>Patients can book appointment with any connect provider or provider group. A patient gets consistent follow-up notifications and information about appointments and updates, if any.
-									</p>
-									<div class="btnbox">
-										<!-- <a href="/solutions-for-enterprise/"> Read More</a> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--portfolio-left-->
-					<div class="mobile">
-						<!-- <div class="mobile-frame">
-						  <img src="images/.png" alt="MOBILE APP" />
-						</div> -->
-						<!--mobile-frame-->
-						<div class="mobile-video">
-							<img src="images/mobile-img/3rd-Book_appointment.png" alt="yovo">
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-		<!--home-portfolio-->
-		<div class="home-portfolio" data-home-project="4">
-			<div class="project-clip">
-				<div class="container prtf2">
-					<div class="portfolio-left wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-						<div class="company-portfolio-left-info-box">
-							<div class="portfolio-info-head">
-								<div class="texbox">
-									<h3>Make Payment
-									</h3>
-									<p>Patient can make payment for appointment with bank or any payment wallet. App providers payment bills with details. 
-									</p>
-									<div class="btnbox">
-										<!-- <a href="/solutions-for-enterprise/"> Read More</a> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--portfolio-left-->
-					<div class="mobile">
-						<!-- <div class="mobile-frame">
-						  <img src="images/.png" alt="MOBILE APP" />
-						</div> -->
-						<!--mobile-frame-->
-						<div class="mobile-video">
-							<img src="images/mobile-img/4th.png" alt="menos">
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-		<!--home-portfolio-->
-		<div class="home-portfolio" data-home-project="5">
-			<div class="project-clip">
-				<div class="container prtf5">
-					<div class="portfolio-left wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-						<div class="company-portfolio-left-info-box">
-							<div class="portfolio-info-head">
-								<div class="texbox">
-									<h3>Video Consultation
-									</h3>
-									<p>Patients can take video consultation or audio call base on choice with a cool patient mobile app. A patient can enjoy high-quality video streaming with the comfort of home.
-									</p>
-									<div class="btnbox">
-										<!-- <a href="/solutions-for-enterprise/"> Read More</a> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--portfolio-left-->
-					<div class="mobile">
-						<!-- <div class="mobile-frame">
-						  <img src="images/.png" alt="MOBILE APP" />
-						</div> -->
-						<!--mobile-frame-->
-						<div class="mobile-video">
-							<img src="images/mobile-img/5th.png" alt="ufp">
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-
-		<div class="home-portfolio" data-home-project="6">
-			<div class="project-clip">
-				<div class="container prtf5">
-					<div class="portfolio-left wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-						<div class="company-portfolio-left-info-box">
-							<div class="portfolio-info-head">
-								<div class="texbox">
-									<h3>Prescriptions &amp; Notes
-									</h3>
-									<p>Once the appointment is done, A patient receives prescriptions and notes created during appointments. Patient has options to download and get it from labs.
-									</p>
-									<div class="btnbox">
-										<!-- <a href="/solutions-for-enterprise/"> Read More</a> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--portfolio-left-->
-					<div class="mobile">
-						<!-- <div class="mobile-frame">
-						  <img src="images/.png" alt="MOBILE APP" />
-						</div> -->
-						<!--mobile-frame-->
-						<div class="mobile-video">
-							<img src="images/mobile-img/6th.png" alt="ufp">
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-	<!-- mobile-view patient section -->
-	<section class="solution-box d-lg-none d-md-block d-sm-block">
-		<div class="container">
-			<div class="row flex row-works">
-				<div class="col-md-6 flex-middle">
-					<div class="imagebx-mobile">
-						<img src="./images/patient/1st-Create_account.png" alt="Solutions for Enterprise"
-							class="lazyloaded" data-ll-status="loaded">
-					</div>
-				</div>
-				<div class="col-md-6 flex-middle">
-					<div class="texbox">
-						<h3>Create Account
-						</h3>
-						<p>Patients can create an account with a mobile number or email. App sends activation OPT or links to get started with a platform. Teledocs provider-patient easy to use a mobile application.
-						</p>
-						<div class="btnbox">
-							<!-- <a href="/solutions-for-enterprise/"> Read More</a> -->
-						</div>
-					</div>
-
-				</div>
-			</div>
-			<div class="row flex row-works">
-				<div class="col-md-6 flex-middle">
-					<div class="imagebx-mobile">
-						<img src="./images/patient/2nd.png" alt="Solutions for Enterprise" class="lazyloaded"
-							data-ll-status="loaded">
-					</div>
-				</div>
-				<div class="col-md-6 flex-middle">
-					<div class="texbox">
-						<h3>Connect to Provider
-						</h3>
-						<p>
-							Teledocs assign unique codes to each provider. Patients can connect to the provider only if they have a code associated with a provider. Platform respects the security of each provider and patient.
-							</p>
-						<div class="btnbox">
-							<!-- <a href="/solutions-for-enterprise/"> Read More</a> -->
-						</div>
-					</div>
-
-				</div>
-			</div>
-			<div class="row flex row-works">
-				<div class="col-md-6 flex-middle">
-					<div class="imagebx-mobile">
-						<img src="./images/patient/3rd-Book_appointment.png" alt="Solutions for Enterprise"
-							class="lazyloaded" data-ll-status="loaded">
-					</div>
-				</div>
-				<div class="col-md-6 flex-middle">
-					<div class="texbox">
-						<h3>Book Appointment
-						</h3>
-						<p>Patients can book appointment with any connect provider or provider group. A patient gets consistent follow-up notifications and information about appointments and updates, if any.
-						</p>
-						<div class="btnbox">
-							<!-- <a href="/solutions-for-enterprise/"> Read More</a> -->
-						</div>
-					</div>
-
-				</div>
-			</div>
-			<div class="row flex row-works">
-				<div class="col-md-6 flex-middle">
-					<div class="imagebx-mobile">
-						<img src="./images/patient/4th.png" alt="Solutions for Enterprise" class="lazyloaded"
-							data-ll-status="loaded">
-					</div>
-				</div>
-				<div class="col-md-6 flex-middle">
-					<div class="texbox">
-						<h3>Make Payment
-						</h3>
-						<p>Patient can make payment for appointment with bank or any payment wallet. App providers payment bills with details. 
-						</p>
-						<div class="btnbox">
-							<!-- <a href="/solutions-for-enterprise/"> Read More</a> -->
-						</div>
-					</div>
-
-				</div>
-			</div>
-			<div class="row flex row-works">
-				<div class="col-md-6 flex-middle">
-					<div class="imagebx-mobile">
-						<img src="./images/patient/5th.png" alt="Solutions for Enterprise" class="lazyloaded"
-							data-ll-status="loaded">
-					</div>
-				</div>
-				<div class="col-md-6 flex-middle">
-					<div class="texbox">
-						<h3>Video Consultation
-						</h3>
-						<p>Patients can take video consultation or audio call base on choice with a cool patient mobile app. A patient can enjoy high-quality video streaming with the comfort of home.
-						</p>
-						<div class="btnbox">
-							<!-- <a href="/solutions-for-enterprise/"> Read More</a> -->
-						</div>
-					</div>
-
-				</div>
-			</div>
-			<div class="row flex row-works">
-				<div class="col-md-6 flex-middle">
-					<div class="imagebx-mobile">
-						<img src="./images/patient/6th.png" alt="Solutions for Enterprise" class="lazyloaded"
-							data-ll-status="loaded">
-					</div>
-				</div>
-				<div class="col-md-6 flex-middle">
-					<div class="texbox">
-						<h3>Prescriptions & Notes
-						</h3>
-						<p>Once the appointment is done, A patient receives prescriptions and notes created during appointments. Patient has options to download and get it from labs.
-						</p>
-						<div class="btnbox">
-							<!-- <a href="/solutions-for-enterprise/"> Read More</a> -->
-						</div>
-					</div>
-
-				</div>
-			</div>
-
 		</div>
 	</section>
-	<!-- mobile-view patient section end -->
-
 
 	<!-- Footer Start -->
 
@@ -734,6 +543,168 @@
 			}
 		});
 	</script>
+
+
+	<script>
+		jQuery(function ($) {
+			$('#mobility-slider').cycle({
+				fx: 'scrollHorz',
+				slides: '.slide',
+				pager: '.progress-container',
+				pagerTemplate: '',
+			});
+			slideshow = $('#mobility-slider');
+			slideshow.cycle('pause');
+			setTimeout(function () {
+				slideshow.cycle('resume');
+			}, 1);
+			slideshow.on('cycle-initialized cycle-before', function (e, opts) {
+				$('.progress span').stop(true).css('width', 0);
+			});
+			slideshow.on('cycle-initialized cycle-after', function (e, opts) {
+				if (!slideshow.is('.cycle-paused'))
+					$('.progress.cycle-pager-active span').animate({
+						width: '100%'
+					}, opts.timeout, 'linear');
+			});
+			slideshow.on('cycle-paused', function (e, optionHash) {
+				$('.progress span').stop();
+			});
+			slideshow.on('cycle-resumed', function (e, opts, timeoutRemaining) {
+				$('.progress.cycle-pager-active span').animate({
+					width: '100%'
+				}, timeoutRemaining, 'linear');
+			});
+			$('.award-img').hover(function () {
+				var a = $(this).find('img').attr('src');
+				var b = $(this).find('img').attr('data-hover');
+				$(this).find('img').attr('src', b).attr('data-hover', a);
+			}, function () {
+				var a = $(this).find('img').attr('src');
+				var b = $(this).find('img').attr('data-hover');
+				$(this).find('img').attr('src', b).attr('data-hover', a);
+			});
+		})
+		var controller, Sscene;
+		jQuery(document).ready(function ($) {
+			var scanner = $('.scanner'),
+				scannerbg = $('.scanner-bg'),
+				leftTextBox = $(".left-description"),
+				rightTextBox = $(".right-description");
+			leftTextBox2 = $(".left-description2"),
+				rightTextBox2 = $(".right-description2");
+			winHeight = $(window).height();
+			var controller = new ScrollMagic.Controller();
+
+			function magicEffect() {
+				var moveleft = new TimelineMax().add([TweenMax.to(rightTextBox, 1, {
+					right: '0',
+					opacity: 1,
+					zIndex: 1
+				}), TweenMax.to(leftTextBox, 1, {
+					left: '50%',
+					opacity: 0,
+					zIndex: 0
+				}), TweenMax.to(scanner, 1, {
+					left: "0%"
+				}, {
+					x: "0%",
+					ease: Power0.easeNone,
+				}), TweenMax.to(scannerbg, 1, {
+					x: "-25%"
+				}, {
+					x: "0%",
+					ease: Power0.easeNone
+				}), ]).add([TweenMax.to(rightTextBox, 1, {
+					right: '50%',
+					opacity: 0,
+					zIndex: 0
+				}), TweenMax.to(leftTextBox2, 1, {
+					left: '0%',
+					opacity: 1,
+					zIndex: 1
+				}), TweenMax.to(scanner, 1, {
+					left: "50%"
+				}, {
+					x: "0%",
+					ease: Power0.easeNone,
+				}), TweenMax.to(scannerbg, 1, {
+					x: "25%"
+				}, {
+					x: "0",
+					ease: Power0.easeNone
+				}), ]).add([TweenMax.to(rightTextBox2, 1, {
+					right: '0',
+					opacity: 1,
+					zIndex: 1
+				}), TweenMax.to(leftTextBox2, 1, {
+					left: '50%',
+					opacity: 0,
+					zIndex: 0
+				}), TweenMax.to(scanner, .9, {
+					left: "0%"
+				}, {
+					x: "0%",
+					ease: Power0.easeNone,
+				}), TweenMax.to(scannerbg, .9, {
+					x: "-50%"
+				}, {
+					x: "0",
+					ease: Power0.easeNone
+				}), ]);
+				var Sscene = new ScrollMagic.Scene({
+					triggerElement: ".pin-trigger",
+					duration: winHeight * 3,
+					triggerHook: 0,
+				}).addTo(controller).setPin(".pin-scroll").setTween(moveleft);
+			}
+			if ($(window).width() > 1199) {
+				$('#mainContainer').fullpage({
+					sectionSelector: '.full-fold',
+					scrollBar: true,
+					scrollingSpeed: 1000,
+					controlArrows: false,
+				});
+				var i = $(".portfolio,.slide");
+				wH = $(window).height();
+				i.height(wH);
+				magicEffect();
+			}
+			$(window).on("resize", function () {
+				var windowsize = $(this).width();
+				if ($(window).width() > 1100) {
+					location.href = location.href;
+				}
+			});
+			$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+				e.preventDefault();
+				currIndx = $(this).parent().index();
+				imgIndx = currIndx + 1;
+				$('.process figure img').not('.cover-image').hide();
+				$('.dotted-circle li').removeClass('active')
+				$('.dotted-circle').attr('class', 'dotted-circle hidden-xs hidden-sm');
+				$('.dotted-circle').addClass('active_' + currIndx + '')
+				$('.dotted-circle li:eq(' + currIndx + ')').addClass('active');
+				$('.process figure img:eq(' + imgIndx + ')').show();
+			});
+			$('#wt-next').click(function (event) {
+				event.preventDefault();
+				var lenght = $('.tab-navigation li').length;
+				actualLenght = lenght - 1;
+				currIndx = $('.tab-navigation li.active').index();
+				if (actualLenght != currIndx) {
+					$('.tab-navigation li:eq(' + currIndx + ')').next('li').find('a').trigger('click');
+				} else {
+					$('.tab-navigation li:eq(0)').find('a').trigger('click');
+				}
+			});
+			$('.icon-navigation li').click(function (event) {
+				cindx = $(this).index();
+				$('.tab-navigation li:eq(' + cindx + ')').find('a').trigger('click');
+			});
+		})
+	</script>
+
 </body>
 
 </html>
