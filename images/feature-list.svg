@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_121" data-name="Group 121" transform="translate(-206 -5983)">
+    <circle id="Ellipse_33" data-name="Ellipse 33" cx="40" cy="40" r="40" transform="translate(206 5983)" fill="#f8f6f6"/>
+    <g id="Group_120" data-name="Group 120" transform="translate(222.627 6002.042)">
+      <g id="Group_116" data-name="Group 116" transform="translate(0)">
+        <g id="Group_105" data-name="Group 105">
+          <g id="Group_104" data-name="Group 104">
+            <path id="Path_264" data-name="Path 264" d="M15.15,0l-1.7,1.7a.9.9,0,0,0-.427-.117H3.755a.927.927,0,0,0-.927.927v9.27a.927.927,0,0,0,.927.927h9.27a.927.927,0,0,0,.927-.927V3.821l2.509-2.509ZM12.1,10.852H4.682V3.436h7.036L8.39,6.761l-1.2-1.2L5.881,6.873,7.734,8.725a.927.927,0,0,0,1.311,0L12.1,5.674Z" transform="translate(-2.828)" fill="#00c5cd"/>
+          </g>
+        </g>
+        <g id="Group_107" data-name="Group 107" transform="translate(0 16.685)">
+          <g id="Group_106" data-name="Group 106">
+            <path id="Path_265" data-name="Path 265" d="M15.15,144l-1.7,1.7a.9.9,0,0,0-.427-.117H3.755a.927.927,0,0,0-.927.927v9.27a.927.927,0,0,0,.927.927h9.27a.927.927,0,0,0,.927-.927v-7.958l2.509-2.509ZM12.1,154.852H4.682v-7.416h7.036l-3.324,3.324-1.2-1.2-1.311,1.311,1.85,1.852a.927.927,0,0,0,1.311,0l3.053-3.053Z" transform="translate(-2.828 -144)" fill="#00c5cd"/>
+          </g>
+        </g>
+        <g id="Group_109" data-name="Group 109" transform="translate(0 32.444)">
+          <g id="Group_108" data-name="Group 108">
+            <path id="Path_266" data-name="Path 266" d="M15.15,280l-1.7,1.7a.9.9,0,0,0-.427-.117H3.755a.927.927,0,0,0-.927.927v9.27a.927.927,0,0,0,.927.927h9.27a.927.927,0,0,0,.927-.927v-7.958l2.509-2.509ZM12.1,290.852H4.682v-7.416h7.036l-3.324,3.324-1.2-1.2-1.311,1.311,1.85,1.852a.927.927,0,0,0,1.311,0l3.053-3.053Z" transform="translate(-2.828 -280)" fill="#00c5cd"/>
+          </g>
+        </g>
+        <g id="Group_110" data-name="Group 110" transform="translate(17.612 8.998)">
+          <rect id="Rectangle_118" data-name="Rectangle 118" width="26.882" height="1.854" fill="#6155a3"/>
+        </g>
+        <g id="Group_111" data-name="Group 111" transform="translate(17.612 3.436)">
+          <rect id="Rectangle_119" data-name="Rectangle 119" width="26.882" height="1.854" fill="#6155a3"/>
+        </g>
+        <g id="Group_112" data-name="Group 112" transform="translate(17.612 25.683)">
+          <rect id="Rectangle_120" data-name="Rectangle 120" width="26.882" height="1.854" fill="#6155a3"/>
+        </g>
+        <g id="Group_113" data-name="Group 113" transform="translate(17.612 20.122)">
+          <rect id="Rectangle_121" data-name="Rectangle 121" width="26.882" height="1.854" fill="#6155a3"/>
+        </g>
+        <g id="Group_114" data-name="Group 114" transform="translate(17.612 41.441)">
+          <rect id="Rectangle_122" data-name="Rectangle 122" width="26.882" height="1.854" fill="#6155a3"/>
+        </g>
+        <g id="Group_115" data-name="Group 115" transform="translate(17.612 35.88)">
+          <rect id="Rectangle_123" data-name="Rectangle 123" width="26.882" height="1.854" fill="#6155a3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
