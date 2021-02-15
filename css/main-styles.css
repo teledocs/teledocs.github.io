@@ -2302,7 +2302,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
     position: relative;
     font-size: 24px;
     color: #21243d;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 .bannersec ul.textbox li:before {
@@ -2654,7 +2654,9 @@ p.trusted_partners {
 }
 
 @media (max-width: 767px) {
-    .heading-block h1 {}
+    .heading-block h1 {
+        font-size: 32px;
+    }
     .bannersec {
         padding: 8rem 0 6rem;
         height: auto;
