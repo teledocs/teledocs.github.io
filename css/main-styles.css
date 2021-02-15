@@ -2829,6 +2829,106 @@ color pallet Style-2
  Footer
 -----------------------------------------------------------------------*/
 
+#footer-section {
+    width: 100%;
+    padding: 60px 0 0 0;
+    float: left;
+    background: #00556B;
+    overflow: hidden;
+    position: relative;
+}
+
+#footer-section .footer-item {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 5% 0 3% 0;
+}
+
+#footer-section .footer-item h3 {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+
+#footer-section .footer-item p {
+    color: #00F1B7;
+    font-weight: 300;
+    margin: 0;
+}
+
+#footer-section .footer-item p a {
+    color: #00F1B7;
+    font-weight: 300;
+    margin: 0;
+}
+
+#footer-section .footer-item ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 0px;
+}
+
+#footer-section .footer-item ul li {
+    list-style: none;
+    padding: 3px 0px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-section .footer-item ul li a {
+    color: #00F1B7;
+    text-decoration: none;
+}
+
+#footer-section .footer-item .social-media {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+#footer-section .footer-item .social-media ul {
+    width: 100%;
+    float: left;
+}
+
+#footer-section .footer-item .social-media ul li {
+    list-style: none;
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+#footer-section .copyright {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 5%;
+    padding: 15px 0;
+    border-top: 1px solid #ffffff;
+}
+
+#footer-section .copyright .copyright-discription {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#footer-section .copyright .copyright-discription .tele-link {
+    color: #00F1B7;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#footer-section .copyright span a {
+    color: #66CCCC;
+}
+
 .footer--section {
     padding-top: 60px;
 }
