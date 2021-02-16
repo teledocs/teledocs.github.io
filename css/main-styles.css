@@ -248,6 +248,50 @@ blockquote {
     border: none !important;
 }
 
+@media(min-width:576px) {
+    body {
+        height: 100vh;
+    }
+    .container,
+    .container-sm,
+    .container-xs {
+        max-width: 540px;
+    }
+}
+
+@media(min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+    .container-sm {
+        max-width: 720px;
+    }
+    .container-xs {
+        max-width: 670px;
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+    .container-sm {
+        max-width: 774px;
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media(min-width:1446px) {
+    .container {
+        max-width: 1446px;
+    }
+}
+
 
 /* .container {
   max-width: 1170px;
