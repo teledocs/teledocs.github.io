@@ -2283,7 +2283,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 .bannersec {
     padding: 9em 0 4em;
     background: #192634;
-    background-image: url(../images/bg/Doctor-images.jpg);
+    background-image: url(../images/bg/doctor-with-stethoscope-hands-hospital-background.jpg);
     background-size: cover;
     width: 100%;
     /* height: 100vh; */
@@ -2888,7 +2888,7 @@ color pallet Style-2
     width: 100%;
     padding: 60px 0 0 0;
     float: left;
-    background: #00556B;
+    background: #506CAD;
     overflow: hidden;
     position: relative;
 }
@@ -2908,13 +2908,13 @@ color pallet Style-2
 }
 
 #footer-section .footer-item p {
-    color: #00F1B7;
+    color: #ffffff;
     font-weight: 300;
     margin: 0;
 }
 
 #footer-section .footer-item p a {
-    color: #00F1B7;
+    color: #ffffff;
     font-weight: 300;
     margin: 0;
 }
@@ -2933,7 +2933,7 @@ color pallet Style-2
 }
 
 #footer-section .footer-item ul li a {
-    color: #00F1B7;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -5851,9 +5851,9 @@ a.app-download-link3 {
         /* float: left */
     }
     #doctor .item h3 {
-        width: 65%;
-        float: right;
-        text-align: left
+        width: 100%;
+        /* float: right; */
+        text-align: center;
     }
     #why .item .icon {
         width: 25%;
