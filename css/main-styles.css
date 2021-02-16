@@ -4260,7 +4260,7 @@ section.solution-box .row.flex {
 .row-works {
     padding-top: 50px;
     padding-bottom: 50px;
-    border-top: solid 1px #DCDCDC;
+    /* border-top: solid 1px #DCDCDC; */
 }
 
 
@@ -4307,7 +4307,7 @@ section.solution-box .row.flex {
 .row-works {
     padding-top: 50px;
     padding-bottom: 50px;
-    border-top: solid 1px #DCDCDC;
+    /* border-top: solid 1px #DCDCDC; */
 }
 
 .row-works:first-child {
