@@ -1804,6 +1804,10 @@ header .dropdown-toggle::after {
     vertical-align: baseline;
 }
 
+.hs-button {
+    width: 100% !important;
+}
+
 
 /* fade-in-bottom*/
 
