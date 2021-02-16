@@ -2320,7 +2320,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
     margin-top: 20px;
     width: 60px;
     height: 3px;
-    background: linear-gradient( 135deg, rgba(36, 107, 173, 1) 0%, rgba(0, 200, 200, 1) 100%);
+    background: linear-gradient( 135deg, #718bc6 0%, #0bb4b4 100%);
 }
 
 .bannersec .bannertext h1 {
