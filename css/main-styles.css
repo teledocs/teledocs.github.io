@@ -4240,6 +4240,18 @@ Extra css
     z-index: 1;
 }
 
+.solution-box {
+    padding: 8rem 0 4rem;
+}
+
+.provider-box2 {
+    padding-top: 2rem !important;
+}
+
+.provider-box1 {
+    padding-bottom: 0rem !important;
+}
+
 section.solution-box .row.flex {
     clear: both;
     /* margin-bottom: 60px; */
