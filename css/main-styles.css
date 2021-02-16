@@ -2281,12 +2281,12 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 -----------------------------------------------------------------------*/
 
 .bannersec {
-    padding: 12em 0 4em;
+    padding: 9em 0 4em;
     background: #192634;
     background-image: url(../images/bg/Doctor-images.jpg);
     background-size: cover;
     width: 100%;
-    height: 100%;
+    /* height: 100vh; */
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -2345,12 +2345,12 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 }
 
 .bannersec ul.textbox {
-    margin: 3rem 0 0;
+    margin: 2rem 0 0;
 }
 
 .bannersec ul.textbox li {
     padding: 0 0 0 30px;
-    margin: 0 0 25px;
+    margin: 0 0 20px;
     position: relative;
     font-size: 24px;
     color: #21243d;
@@ -2675,13 +2675,13 @@ p.trusted_partners {
 
 @media (max-width: 1600px) {
     .bannersec {
-        padding: 8rem 0 1rem
+        padding: 8rem 0 5rem;
     }
 }
 
 @media (max-width: 1440px) {
     .bannersec {
-        padding: 8em 0 6em;
+        padding: 4em 0 6em;
     }
 }
 
