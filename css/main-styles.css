@@ -5826,7 +5826,7 @@ a.app-download-link3 {
         margin-top: -3px
     }
     h1 {
-        font-size: 2.3em !important;
+        font-size: 2em !important;
     }
     h2 {
         font-size: 2em !important;
@@ -5874,53 +5874,5 @@ a.app-download-link3 {
     }
     #whitelabel {
         height: 100%;
-    }
-    #video {
-        padding: 35% 0;
-    }
-    #telimedicine {
-        padding: 100px 0;
-    }
-    #video .vido-btn2 {
-        position: inherit;
-        width: 100%;
-    }
-    #video .vido-btn2 .btn-call {
-        width: 142px;
-        font-size: 17px;
-        line-height: 36px
-    }
-    #video .vido-btn2 .btn-video {
-        width: 160px !important;
-        font-size: 17px;
-        line-height: 36px
-    }
-    .chapter {
-        flex-direction: column !important;
-        width: 100% !important;
-        margin: 0 !important;
-        max-width: 100% !important;
-    }
-    .chapter li {
-        width: 100% !important;
-        text-align: left !important;
-    }
-    .chapter li img {
-        width: 50px !important;
-        padding: 0 !important;
-        margin-right: 15px;
-    }
-    .chapter li span {
-        width: calc(100% - 70px) !important;
-        float: left;
-        text-align: left !important;
-        margin-top: 10px;
-    }
-    .fixed {
-        right: 0 !important;
-        width: 50px !important;
-    }
-    .specialist li {
-        width: 100%;
     }
 }
