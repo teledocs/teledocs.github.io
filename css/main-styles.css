@@ -5715,13 +5715,25 @@ a.app-download-link3 {
     .texbox h3 {
         font-size: 2rem;
     }
+    .solution-box {
+        padding: 6rem 0 1rem;
+    }
+    .provider-box2 {
+        padding-top: 0rem !important;
+    }
+    .row-works {
+        padding: 0 !important;
+    }
 }
 
 @media (max-width: 575.98px) {
     .texbox h3 {
         font-size: 1.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         font-weight: 600;
+    }
+    .row-works {
+        padding: 0 !important;
     }
 }
 
