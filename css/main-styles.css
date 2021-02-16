@@ -2852,6 +2852,7 @@ color pallet Style-2
     width: 120px;
     height: 120px;
     line-height: 120px;
+    padding: 30px;
 }
 
 .color-palette.style-three .circle-icon {
