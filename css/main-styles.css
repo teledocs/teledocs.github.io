@@ -2374,6 +2374,12 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
     padding: 30px;
     margin: 20px 0 0 auto;
     position: relative;
+    max-width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0.2rem 1rem 0 rgb(0 0 0 / 11%);
+    padding: 2rem 3rem;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .hireform .head-bg {
