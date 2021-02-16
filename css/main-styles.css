@@ -2586,9 +2586,9 @@ p.trusted_partners {
 
 #whitelabel-section .btn-primary {
     color: #fff;
-    background: -moz-linear-gradient(left, #3a80ea 0%, #28deac 100%);
-    background: -webkit-linear-gradient(left, #3a80ea 0%, #28deac 100%);
-    background: linear-gradient(to right, #3a80ea 0%, #28deac 100%);
+    background: -moz-linear-gradient(left, #6490C4 0%, #0AB5B5 100%);
+    background: -webkit-linear-gradient(left, #6490C4 0%, #0AB5B5 100%);
+    background: linear-gradient(to right, #6490C4 0%, #0AB5B5 100%);
     text-align: center;
     display: inline-block;
     border: none;
@@ -2638,9 +2638,9 @@ p.trusted_partners {
 #download {
     /* float: left; */
     padding: 80px 0;
-    background: -moz-linear-gradient(left, #3a80ea 0%, #28deac 100%);
-    background: -webkit-linear-gradient(left, #3a80ea 0%, #28deac 100%);
-    background: linear-gradient(to right, #3a80ea 0%, #28ad8a 100%);
+    background: -moz-linear-gradient(left, #6490C4 0%, #0AB5B5 100%);
+    background: -webkit-linear-gradient(left, #6490C4 0%, #0AB5B5 100%);
+    background: linear-gradient(to right, #6490C4 0%, #0AB5B5 100%);
 }
 
 #download h2 {
