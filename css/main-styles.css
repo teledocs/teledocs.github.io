@@ -2665,6 +2665,29 @@ p.trusted_partners {
     margin-right: 15px;
 }
 
+.page_link a {
+    padding: 12px 30px;
+}
+
+.page_link a {
+    /* font-family: 'lato-reg'; */
+    display: inline-block;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 12px 30px;
+    margin: 0px 5px;
+    border: solid 2px #ffffff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.page_link a:hover {
+    color: #0AB5B5;
+    background-color: #ffffff;
+    /* border: solid 2px #708bc6; */
+}
+
 
 /* .blue-bg {
 			background-image: url(../images/bg/pexels-photo.png);
@@ -2968,7 +2991,7 @@ color pallet Style-2
     width: 100%;
     height: auto;
     float: left;
-    margin-top: 5%;
+    margin-top: 2%;
     padding: 15px 0;
     border-top: 1px solid #ffffff;
 }
@@ -3409,7 +3432,7 @@ overview page
     bottom: 81px;
 }
 
-*/
+
 /* Grid Full Screen */
 
 .isotope.full-grid,
