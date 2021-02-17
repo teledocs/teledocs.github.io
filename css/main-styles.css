@@ -2774,6 +2774,356 @@ p.trusted_partners {
 
 
 /*---------------------------------------------------------------------
+ partner page css white lable
+-----------------------------------------------------------------------*/
+
+#whitelabel {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* float: left; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#whitelabel h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.4em;
+    color: #21243d;
+    margin-top: 5%;
+}
+
+#whitelabel p {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #21243d;
+    font-weight: 300;
+}
+
+#whitelabel video {
+    width: 100%;
+    height: auto;
+}
+
+#whitelabel .btn-primary {
+    color: #fff;
+    background: -moz-linear-gradient(left, #708bc6 0%, #708BC6 100%);
+    background: -webkit-linear-gradient(left, #708bc6 0%, #708BC6 100%);
+    background: linear-gradient(to right, #708bc6 0%, #708BC6 100%);
+    text-align: center;
+    display: inline-block;
+    border: none;
+    border-radius: 0px !important;
+    font-size: 20px;
+    font-weight: 400;
+    width: 220px;
+    padding: 15px 15px;
+    margin-top: 5%;
+    transition: 1s;
+    text-transform: capitalize;
+}
+
+#whitelabel .btn-primary span {
+    display: inline-block;
+    background-position: -875px -805px;
+    width: 19px;
+    height: 13px;
+    vertical-align: middle;
+}
+
+#whitelabel .btn-primary:hover {
+    transition: 0s;
+    background: #52B9E6;
+    border-color: #52B9E6;
+}
+
+#whitelabel .btn-video {
+    color: #21243d;
+    border: 1px solid #708bc6;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 220px;
+    padding: 15px 15px;
+    margin: 8% 0 0 3%;
+    transition: 1s;
+}
+
+#whitelabel .btn-video span {
+    width: 30px;
+    float: left;
+}
+
+#whitelabel .btn-video:hover {
+    transition: 0;
+    background: #52B9E6;
+    border-color: #52B9E6;
+}
+
+#feature-items {
+    /* float: left; */
+    background: #F1FDFD;
+}
+
+#feature-items h2 {
+    color: #21243d;
+    margin-bottom: 20px;
+}
+
+#feature-items p {
+    color: #21243d;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#feature-items .item {
+    width: 100%;
+    float: left;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #F2F2F2;
+    box-shadow: 1px 2px 3px #eee;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    /* margin: auto; */
+}
+
+#feature-items .item .icon {
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+
+#feature-items .item h3 {
+    color: #21243d;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15px 0;
+    text-align: center;
+    padding: 0 25px;
+    line-height: 24px;
+    /* float: left; */
+}
+
+#white-label-feature {
+    padding: 80px 0;
+    /* float: left; */
+}
+
+#white-label-feature .feature-list {
+    width: 75%;
+    height: 100%;
+}
+
+#white-label-feature .feature-list .list {
+    width: 100%;
+    margin: 0;
+    transition: .8s;
+    float: left;
+}
+
+#white-label-feature .feature-list .list img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+#white-label-feature .feature-list .list h3 {
+    color: #21243d;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#white-label-feature .feature-list .list p {
+    font-size: 16px;
+    font-weight: 300;
+    /* margin-top: 10px; */
+    color: #21243d;
+}
+
+.video {
+    /* float: left; */
+    background: url("../images/white-label/Man-2.png") center;
+    background-size: cover;
+    padding: 60px 0;
+    position: relative;
+}
+
+.vh-40 {
+    height: 40vh !important;
+}
+
+.video video {
+    width: 100%;
+    height: auto;
+}
+
+.video .vido-btn {
+    position: absolute;
+    right: 25%;
+}
+
+.video .vido-btn .btn-video {
+    color: #21243d;
+    border: 1px solid #3a80ea;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 220px;
+    padding: 5px 15px;
+    margin: 8% 0 0 3%;
+    transition: 1s;
+    height: 65px;
+    line-height: 50px;
+}
+
+.video .vido-btn .btn-video span {
+    width: 50px;
+    position: relative;
+    float: left;
+}
+
+.video .vido-btn2 {
+    width: 100%;
+    float: left;
+}
+
+.video .vido-btn2 p {
+    margin-bottom: 50px !important;
+}
+
+.video .vido-btn2 .btn-video {
+    color: #21243d;
+    border: 1px solid #3a80ea;
+    text-align: center;
+    display: inline-block;
+    background: #dee2e3;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 220px;
+    margin: 0 0 0 3%;
+    transition: 1s;
+    height: 50px;
+    line-height: 40px;
+    float: left;
+}
+
+.video .vido-btn2 .btn-video span {
+    width: 35px;
+    position: relative;
+    float: left;
+    margin-top: -2.5px;
+}
+
+.video .vido-btn2 .btn-call {
+    color: #21243d;
+    border: 1px solid #3a80ea;
+    text-align: center;
+    background: #dee2e3;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 160px;
+    transition: 1s;
+    height: 50px;
+    line-height: 40px;
+    float: left;
+}
+
+#supporting-devices {
+    /* float: left; */
+}
+
+#supporting-devices h2 {
+    color: #21243d;
+    margin-bottom: 20px;
+}
+
+#supporting-devices p {
+    color: #21243d;
+    font-size: 16px;
+}
+
+#supporting-devices .item {
+    width: 100%;
+    float: left;
+    padding: 5px 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#supporting-devices .item .icon {
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+
+#supporting-devices .item h3 {
+    color: #21243d;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#supporting-devices .item p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #21243d;
+}
+
+#white-label-faq {
+    /* float: left; */
+    background: #F1FDFD;
+}
+
+#white-label-faq .card {
+    border-radius: 10px;
+    margin: 0 0 30px 0;
+    padding: 20px;
+    background: #fff;
+    min-height: 130px;
+}
+
+#white-label-faq .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #21243d;
+    text-align: left;
+    position: relative;
+    margin-left: 25px;
+}
+
+#white-label-faq .card h3::after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background: url("../images/white-label/teledocs-fevico.png");
+    position: absolute;
+    left: -28px;
+    top: 10px;
+}
+
+#white-label-faq .card p {
+    color: #21243d;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+
+
+/*---------------------------------------------------------------------
  Contact
 -----------------------------------------------------------------------*/
 
@@ -4716,7 +5066,8 @@ Desctop & Mobile View section scroll css
     margin: 0 0 55px;
 }
 
-a.btn {
+
+/* a.btn {
     color: #fff;
     font-size: 19px;
     font-family: "Poppins", sans-serif !important;
@@ -4733,7 +5084,7 @@ a.btn {
 a.btn:hover {
     background: linear-gradient(to left, #f8587e 47%, #f8616d 67%);
     color: #fff;
-}
+} */
 
 .left-heading-info-box h2:before {
     content: "";
