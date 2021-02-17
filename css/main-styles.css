@@ -1412,7 +1412,7 @@ ul.iq-list {
     color: #ffffff;
     background: #1e1e1e;
     position: fixed;
-    bottom: 30px;
+    bottom: 90px;
     right: 25px;
     z-index: 999;
     font-size: 26px;
@@ -3126,6 +3126,234 @@ p.trusted_partners {
 /*---------------------------------------------------------------------
  Contact
 -----------------------------------------------------------------------*/
+
+.media-body h5 {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.button--white {
+    height: 40px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: auto;
+    min-width: 140px;
+    font-size: 16px;
+    padding: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #708bc6;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border: none;
+    white-space: nowrap;
+    color: #fff;
+    /* background: 0 0; */
+    border: 2px solid #708bc6;
+}
+
+
+/* Form */
+
+label {
+    color: #1e1e1e;
+    margin-bottom: 0;
+}
+
+input,
+input[type=text],
+input[type=email],
+input[type=search],
+input[type=password],
+textarea {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+    height: 48px;
+    line-height: 48px;
+    background: #ffffff;
+    border: 1px solid #eff1fe;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #8e989f;
+    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+select {
+    border: 1px solid rgba(36, 38, 43, 0.14);
+    background: #ffffff;
+    line-height: 48px;
+    height: 48px;
+    padding: 0 10px;
+    width: 100%;
+    color: #8e989f;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+textarea {
+    padding: 0 15px;
+    height: 150px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+input:focus,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=search]:focus,
+input[type=password]:focus,
+textarea:focus,
+select:focus {
+    border-color: #a37cfc;
+    box-shadow: none;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    color: inherit;
+}
+
+input::-moz-placeholder {
+    color: inherit;
+}
+
+input:-ms-input-placeholder {
+    color: inherit;
+}
+
+textarea::-webkit-input-placeholder {
+    color: inherit;
+}
+
+textarea::-moz-placeholder {
+    color: inherit;
+}
+
+textarea:-ms-input-placeholder {
+    color: inherit;
+}
+
+input[type=email]::-webkit-input-placeholder {
+    color: inherit;
+}
+
+input[type=email]::-moz-placeholder {
+    color: inherit;
+}
+
+input[type=email]:-ms-input-placeholder {
+    color: inherit;
+}
+
+input[type=submit],
+.contact-form .cfield input[type=submit] {
+    color: #ffffff;
+    background: #a37cfc;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+    line-height: 26px !important;
+    padding: 11px 30px;
+    font-size: 1em;
+    line-height: 2;
+    border: none;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+input[type=submit]:hover,
+.contact-form .cfield input[type=submit]:hover {
+    color: #ffffff;
+    background: #1e1e1e;
+    outline: none;
+}
+
+input[type=checkbox] {
+    width: auto;
+    margin-right: 10px;
+    line-height: 2;
+    height: 32px;
+}
+
+.comments-area blockquote {
+    background: #ffffff;
+}
+
+.comments-area table td,
+.comments-area table th {
+    border: 1px solid #1e1e1e;
+}
+
+.wp-block-button__link {
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+.error {
+    color: #ff0000 !important;
+}
+
+div.wpcf7-response-output {
+    display: none;
+}
+
+.wpcf7-form .cfield .wpcf7-not-valid {
+    border: 1px solid #f00;
+}
+
+.site-content {
+    display: inline-block;
+    width: 100%;
+    float: left;
+}
+
+.vc_parallax {
+    overflow: hidden !important;
+}
+
+div.wpcf7-mail-sent-ok {
+    display: block;
+    position: absolute;
+    left: 23px;
+    right: 0;
+    bottom: -8px;
+    border: none;
+    color: #398f14;
+}
 
 #contactform {
     margin: 0 auto;
