@@ -2972,23 +2972,23 @@ p.trusted_partners {
 }
 
 .video .vido-btn .btn-video {
-    color: #21243d;
-    border: 1px solid #3a80ea;
+    color: #ffffff;
+    /* border: 1px solid #3a80ea; */
     text-align: center;
     display: inline-block;
     border-radius: 100px;
     font-size: 20px;
     font-weight: 400;
-    width: 220px;
+    width: 280px;
     padding: 5px 15px;
     margin: 8% 0 0 3%;
     transition: 1s;
-    height: 65px;
+    height: 100px;
     line-height: 50px;
 }
 
 .video .vido-btn .btn-video span {
-    width: 50px;
+    width: 80px;
     position: relative;
     float: left;
 }
