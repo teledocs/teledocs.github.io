@@ -2281,7 +2281,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 -----------------------------------------------------------------------*/
 
 .bannersec {
-    padding: 9em 0 4em;
+    padding: 10em 0 4em;
     background: #192634;
     background-image: url(../images/bg/teledocs-banner-Header.jpg);
     background-size: cover;
@@ -2308,7 +2308,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
     letter-spacing: 1px;
     text-align: left;
     color: #333; */
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 700;
     line-height: 1.4em;
     color: #21243d;
