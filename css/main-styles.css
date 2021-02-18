@@ -3136,6 +3136,8 @@ p.trusted_partners {
     padding: 20px;
     background: #fff;
     height: calc(100% - 25px);
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 5%);
+    border: 0px !important;
 }
 
 #white-label-faq .card h3 {
