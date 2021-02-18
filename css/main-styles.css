@@ -2804,7 +2804,7 @@ p.trusted_partners {
     justify-content: center;
     align-content: center;
     flex-direction: column; */
-    padding: 10em 0 4em;
+    padding: 10em 0 6em;
     background: #192634;
     background-image: url(../images/bg/teledocs-banner-Header.jpg);
     background-size: cover;
