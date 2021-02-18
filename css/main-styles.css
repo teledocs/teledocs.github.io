@@ -2754,6 +2754,25 @@ p.trusted_partners {
         color: #181818;
         margin: 0 0 26px;
     }
+    .feature-section {
+        padding: 60px 0 !important;
+    }
+    #whitelabel-section .btn-primary {
+        padding: 0;
+    }
+    #whitelabel h1 {
+        margin-top: 40px;
+    }
+    #whitelabel .btn-primary {
+        padding: 0 !important;
+        margin-bottom: 30px;
+    }
+    #feature-items .item h3 {
+        padding: 0 !important;
+    }
+    .video .vido-btn .btn-video {
+        line-height: 60px !important;
+    }
 }
 
 @media (max-width: 540px) {
@@ -6143,7 +6162,7 @@ a.app-download-link3 {
     }
     .btn-video,
     .btn-primary {
-        width: 47% !important;
+        /* width: 4% !important; */
         height: 55px;
         font-size: 16px !important;
         line-height: 55px;
