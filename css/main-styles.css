@@ -2360,7 +2360,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 .bannersec ul.textbox li:before {
     content: '\f00c';
     font: 16px/26px FontAwesome;
-    color: #60b741;
+    color: #0AB5B5;
     position: absolute;
     left: 0;
     top: 0;
@@ -2815,6 +2815,28 @@ p.trusted_partners {
     margin-top: 5%;
 }
 
+#whitelabel ul.textbox {
+    margin: 2rem 0 0;
+}
+
+#whitelabel ul.textbox li {
+    padding: 0 0 0 30px;
+    margin: 0 0 20px;
+    position: relative;
+    font-size: 24px;
+    color: #21243d;
+    /* text-transform: capitalize; */
+}
+
+#whitelabel ul.textbox li:before {
+    content: '\f00c';
+    font: 16px/26px FontAwesome;
+    color: #0AB5B5;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 #whitelabel p {
     margin-top: 20px;
     font-size: 1.1em;
@@ -2885,8 +2907,7 @@ p.trusted_partners {
 }
 
 #feature-items {
-    /* float: left; */
-    background: #F1FDFD;
+    background: #ffffff;
 }
 
 #feature-items h2 {
@@ -2910,6 +2931,8 @@ p.trusted_partners {
     margin-bottom: 30px;
     align-items: center;
     text-align: center;
+    height: calc(100% - 25px);
+    min-height: 180px;
     /* margin: auto; */
 }
 
@@ -2932,6 +2955,7 @@ p.trusted_partners {
 
 #white-label-feature {
     padding: 80px 0;
+    background-color: #F1FDFD;
     /* float: left; */
 }
 
