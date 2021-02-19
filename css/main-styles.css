@@ -3148,7 +3148,8 @@ p.trusted_partners {
     padding: 20px;
     background: #fff;
     height: calc(100% - 25px);
-    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 5%);
+    box-shadow: 0px 0px 6px #00000029;
+    /* box-shadow: 0 3px 10px 0 rgb(0 0 0 / 5%); */
     border: 0px !important;
 }
 
@@ -3160,6 +3161,7 @@ p.trusted_partners {
     text-align: left;
     position: relative;
     margin-left: 25px;
+    margin-bottom: 8px;
 }
 
 #white-label-faq .card h3::after {
@@ -3210,6 +3212,11 @@ p.trusted_partners {
     /* border: 2px solid #eee; */
     font-size: 18px;
     width: 100%;
+}
+
+.message-box-wrap p {
+    display: inline-block;
+    margin-left: 10px;
 }
 
 .message-box-wrap i {
