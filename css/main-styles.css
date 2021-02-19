@@ -4948,7 +4948,7 @@ Extra css
 }
 
 .solution-box {
-    height: 100vh;
+    /* height: 100vh; */
     padding: 10rem 0 4rem;
 }
 
