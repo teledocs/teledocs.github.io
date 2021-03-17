@@ -102,7 +102,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 }
 
 body {
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 16px;
@@ -149,7 +149,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: #333333;
     margin-top: 0px;
@@ -5093,7 +5093,7 @@ Desctop & Mobile View section scroll css
 .banner-company-info-area ul li {
     list-style-type: disc;
     color: #000;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     font-size: 15px;
     line-height: 1.4;
@@ -5109,7 +5109,7 @@ Desctop & Mobile View section scroll css
 .banner-company-info-area div h1 {
     font-size: 22px;
     color: #f44270;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     margin-top: 6px;
 }
@@ -5137,7 +5137,7 @@ Desctop & Mobile View section scroll css
 .banner-company-info-area a {
     background: linear-gradient(to right, #f8587e 47%, #f8616d 67%);
     padding: 14px 39px;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
@@ -5198,7 +5198,7 @@ Desctop & Mobile View section scroll css
 .happyface-client-info-wrap h2 {
     font-size: 25px;
     text-align: center;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     margin-bottom: 20px;
 }
@@ -5207,7 +5207,7 @@ Desctop & Mobile View section scroll css
     text-align: center;
     font-size: 22px;
     padding: 10px 0 0;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     margin: 0 0 20px;
     font-style: italic;
@@ -5320,7 +5320,7 @@ Desctop & Mobile View section scroll css
 
 .homeAbout-riepenersbox h4 {
     font-size: 22px;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     margin: 0 0 7px;
 }
@@ -5391,7 +5391,7 @@ Desctop & Mobile View section scroll css
 
 .left-heading-info-box>h2>span {
     font-size: 19px;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
 }
 
@@ -5406,7 +5406,7 @@ Desctop & Mobile View section scroll css
 /* a.btn {
     color: #fff;
     font-size: 19px;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     background: linear-gradient(to right, #f8587e 47%, #f8616d 67%);
     padding: 13px 35px;
@@ -5661,7 +5661,7 @@ span.plus-icon {
 .accomplishments-inner-wraper h2 {
     text-align: center;
     font-size: 25px;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     margin: 0 0 20px;
 }
@@ -5747,7 +5747,7 @@ span.plus-icon {
     padding: 1rem 1rem;
     color: #000;
     font-size: 15px;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     text-align: center;
     background: #feeaf0;
@@ -5851,7 +5851,7 @@ a.tab:before {
     display: block;
     color: #fff;
     font-size: 19px;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     background: linear-gradient(to right, #f8587e 47%, #f8616d 67%);
     text-align: center;
@@ -5948,7 +5948,7 @@ a.tab:before {
 
 .counter2 {
     font-size: 25px;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     margin: 0 0 5px;
     position: relative;
@@ -5958,7 +5958,7 @@ a.tab:before {
     content: "+";
     position: absolute;
     font-size: 26px;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     right: 112px;
     top: -3px;
@@ -5968,7 +5968,7 @@ a.tab:before {
     content: "+";
     position: absolute;
     font-size: 26px;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     /* right: 146px; */
     top: -3px;
@@ -6102,7 +6102,7 @@ a.tab:before {
 
 .point-text-wraper p {
     font-size: 22px;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     ;
     color: #fff;
 }
