@@ -252,6 +252,7 @@ blockquote {
     body {
         height: 100vh;
     }
+
     .container,
     .container-sm,
     .container-xs {
@@ -263,9 +264,11 @@ blockquote {
     .container {
         max-width: 720px;
     }
+
     .container-sm {
         max-width: 720px;
     }
+
     .container-xs {
         max-width: 670px;
     }
@@ -275,6 +278,7 @@ blockquote {
     .container {
         max-width: 960px;
     }
+
     .container-sm {
         max-width: 774px;
     }
@@ -1818,6 +1822,7 @@ header .dropdown-toggle::after {
         transform: translateY(50px);
         opacity: 0;
     }
+
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -1831,6 +1836,7 @@ header .dropdown-toggle::after {
         transform: translateY(50px);
         opacity: 0;
     }
+
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -2321,7 +2327,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
     margin-top: 20px;
     width: 60px;
     height: 3px;
-    background: linear-gradient( 135deg, #718bc6 0%, #0bb4b4 100%);
+    background: linear-gradient(135deg, #718bc6 0%, #0bb4b4 100%);
 }
 
 .bannersec .bannertext h1 {
@@ -2729,8 +2735,8 @@ p.trusted_partners {
 }
 
 @media (max-width: 992px) {
-    .brand img {
-        height: 40px;
+    header .navbar .navbar-brand img {
+        height: 35px !important;
         transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
@@ -2751,10 +2757,12 @@ p.trusted_partners {
     .heading-block h1 {
         font-size: 32px;
     }
+
     .bannersec {
         padding: 8rem 0 6rem;
         height: auto;
     }
+
     .bannertext h1 {
         font-size: 28px !important;
         line-height: 32px !important;
@@ -2762,27 +2770,34 @@ p.trusted_partners {
         /* text-align: center; */
         margin: 0 0 10px;
     }
+
     .bannersec .bannertext p {
         font: 20px/30px robotolight, sans-serif;
         color: #181818;
         margin: 0 0 26px;
     }
+
     .feature-section {
         padding: 60px 0 !important;
     }
+
     #whitelabel-section .btn-primary {
         padding: 0;
     }
+
     #whitelabel h1 {
         margin-top: 40px;
     }
+
     #whitelabel .btn-primary {
         padding: 0 !important;
         margin-bottom: 30px;
     }
+
     #feature-items .item h3 {
         padding: 0 !important;
     }
+
     .video .vido-btn .btn-video {
         line-height: 60px !important;
     }
@@ -2798,6 +2813,7 @@ p.trusted_partners {
 }
 
 @media (max-width: 575px) {
+
     .col-xs-4,
     .col-xs-6 {
         width: 50% !important;
@@ -4154,10 +4170,12 @@ overview page
 }
 
 @media(max-width:1199px) {
+
     .isotope.iq-columns-4 .iq-grid-item,
     .iq-masonry.iq-columns-4 .iq-masonry-item {
         width: 33.3%
     }
+
     .isotope.iq-columns-5 .iq-grid-item,
     .iq-masonry.iq-columns-5 .iq-masonry-item {
         width: 25%;
@@ -4165,10 +4183,12 @@ overview page
 }
 
 @media(max-width:992px) {
+
     .isotope.iq-columns-4 .iq-grid-item,
     .iq-masonry.iq-columns-4 .iq-masonry-item {
         width: 50%;
     }
+
     .isotope.iq-columns-3 .iq-grid-item,
     .isotope.iq-columns-5 .iq-grid-item,
     .iq-masonry.iq-columns-3 .iq-masonry-item,
@@ -4178,6 +4198,7 @@ overview page
 }
 
 @media(max-width:767px) {
+
     .isotope.iq-columns-4 .iq-grid-item,
     .isotope.iq-columns-2 .iq-grid-item,
     .isotope.iq-columns-3 .iq-grid-item,
@@ -6162,13 +6183,16 @@ a.app-download-link3 {
     .texbox h3 {
         font-size: 2rem;
     }
+
     .solution-box {
         padding: 6rem 0 1rem;
         height: auto;
     }
+
     .provider-box2 {
         padding-top: 0rem !important;
     }
+
     .row-works {
         padding: 0 !important;
     }
@@ -6180,6 +6204,7 @@ a.app-download-link3 {
         margin-bottom: 1rem;
         font-weight: 600;
     }
+
     .row-works {
         padding: 0 !important;
     }
@@ -6199,6 +6224,7 @@ a.app-download-link3 {
         padding: 8rem 0 6rem;
         height: auto;
     }
+
     /* .texbox {
     padding: 0px;
   } */
@@ -6209,6 +6235,7 @@ a.app-download-link3 {
         color: #272934;
         font-weight: 800;
     }
+
     .bannertext h1 {
         font-size: 28px !important;
         line-height: 32px !important;
@@ -6216,6 +6243,7 @@ a.app-download-link3 {
         /* text-align: center; */
         margin: 0 0 10px;
     }
+
     .bannersec .bannertext p {
         font: 20px/30px robotolight, sans-serif;
         color: #181818;
@@ -6233,6 +6261,7 @@ a.app-download-link3 {
 }
 
 @media (max-width: 575px) {
+
     .col-xs-4,
     .col-xs-6 {
         width: 50% !important;
@@ -6243,15 +6272,19 @@ a.app-download-link3 {
     .header {
         background: #fff;
     }
+
     .navbar {
         padding: 0.5rem 5px !important;
     }
+
     .container {
         padding: 0 30px !important;
     }
+
     #home {
         background-position: -235%;
     }
+
     #home::before {
         content: "";
         height: 100%;
@@ -6259,9 +6292,11 @@ a.app-download-link3 {
         position: absolute;
         background: rgba(255, 255, 255, 0.8)
     }
+
     #home p {
-        margin: 9% 0 5% 0!important;
+        margin: 9% 0 5% 0 !important;
     }
+
     .btn-video,
     .btn-primary {
         /* width: 4% !important; */
@@ -6270,56 +6305,71 @@ a.app-download-link3 {
         line-height: 55px;
         max-width: 220px
     }
+
     .btn-video span {
         margin-top: -3px
     }
+
     h1 {
         font-size: 2em !important;
     }
+
     h2 {
         font-size: 2em !important;
     }
+
     #feature .feature-list,
     #feature .firebase-list {
         width: 100% !important;
         text-align: left !important;
     }
+
     #patient {
         padding-top: 60px;
     }
+
     #patient .list p {
         margin-bottom: 30px !important;
     }
+
     #doctor .item {
         margin-bottom: 30px
     }
+
     #doctor .item .icon {
         width: 25%;
         /* margin: 0 0 5% 0; */
         /* float: left */
     }
+
     #doctor .item h3 {
         width: 100%;
         /* float: right; */
         text-align: center;
     }
+
     #why .item .icon {
         width: 25%;
         margin: 0 0 5% 0;
     }
+
     #why .item .description {
         width: 100%;
     }
+
     #download h2 {
         margin: 50px 0 !important;
     }
+
     #download .downloads {
         margin-top: 5% !important;
         float: left
     }
+
     #download .downloads a {
         width: 45%;
     }
+
     #whitelabel {
         height: 100%;
     }
