@@ -2777,7 +2777,7 @@ p.trusted_partners {
     }
 
     #whitelabel {
-        padding: 8em 0 6em;
+        padding: 8em 0 6em !important;
     }
 
     .message-box-wrap img {
@@ -2928,7 +2928,7 @@ p.trusted_partners {
     margin-top: 20px;
     font-size: 1.1em;
     color: #21243d;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #whitelabel video {
@@ -6223,7 +6223,7 @@ a.app-download-link3 {
 
 @media (max-width: 1199.98px) {
     #whitelabel h1 {
-        font-size: 28px;
+        font-size: 30px;
         font-weight: 700;
         line-height: 1.4em;
         color: #21243d;
@@ -6237,7 +6237,7 @@ a.app-download-link3 {
     }
 
     #whitelabel h1 {
-        font-size: 28px;
+        font-size: 30px;
         font-weight: 700;
         line-height: 1.4em;
         color: #21243d;
