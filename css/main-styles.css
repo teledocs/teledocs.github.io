@@ -2396,6 +2396,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 
 .hireform h2 {
     font-size: 24px;
+    font-weight: 500;
     color: #000;
     margin: 0;
 }
@@ -5046,7 +5047,7 @@ section.solution-box .row.flex {
     font-size: 32px;
     padding-bottom: 10px;
     color: #272934;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .texbox p {
@@ -6233,7 +6234,7 @@ a.app-download-link3 {
         margin-top: 20px;
         padding-bottom: 10px;
         color: #272934;
-        font-weight: 800;
+        font-weight: 700;
     }
 
     .bannertext h1 {
