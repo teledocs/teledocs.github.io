@@ -2714,10 +2714,18 @@ p.trusted_partners {
     .bannersec {
         padding: 8rem 0 5rem;
     }
+
+    #whitelabel {
+        padding: 8em 0 5em;
+    }
 }
 
 @media (max-width: 1440px) {
     .bannersec {
+        padding: 4em 0 6em;
+    }
+
+    #whitelabel {
         padding: 4em 0 6em;
     }
 }
@@ -2725,6 +2733,10 @@ p.trusted_partners {
 @media (max-width: 1399px) {
     .bannersec {
         padding: 6em 0 3em;
+    }
+
+    #whitelabel {
+        padding: 6em 0 5em;
     }
 }
 
@@ -2762,6 +2774,28 @@ p.trusted_partners {
     .bannersec {
         padding: 8rem 0 6rem;
         height: auto;
+    }
+
+    #whitelabel {
+        padding: 8em 0 6em;
+    }
+
+    .message-box-wrap img {
+        margin-bottom: 1rem !important;
+    }
+
+    .message-box-wrap {
+        padding: 20px;
+        border-radius: 0;
+        /* border: 2px solid #eee; */
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .message-box-wrap p {
+        /* display: inline-block; */
+        margin-left: 0px;
     }
 
     .bannertext h1 {
@@ -2811,6 +2845,7 @@ p.trusted_partners {
         font-weight: 700 !important;
         margin: 0 0 10px;
     }
+
     .heading-block h1 {
         font-size: 24px !important;
     }
@@ -2822,6 +2857,7 @@ p.trusted_partners {
     .col-xs-6 {
         width: 50% !important;
     }
+
     .heading-block h1 {
         font-size: 24px !important;
     }
@@ -6180,7 +6216,7 @@ a.app-download-link3 {
     color: #00163f !important;
 }
 
-@media (max-width: 1199.98px)  {
+@media (max-width: 1199.98px) {
     #whitelabel h1 {
         font-size: 28px;
         font-weight: 700;
@@ -6194,6 +6230,7 @@ a.app-download-link3 {
     .texbox h3 {
         font-size: 1.8rem;
     }
+
     #whitelabel h1 {
         font-size: 28px;
         font-weight: 700;
@@ -6234,6 +6271,7 @@ a.app-download-link3 {
     .row-works {
         padding: 0 !important;
     }
+
     .bannersec {
         padding: 8rem 0 6rem;
         height: auto;
@@ -6245,9 +6283,11 @@ a.app-download-link3 {
         font-size: 1.3rem;
         text-align: center;
     }
+
     .heading-block h1 {
         font-size: 24px !important;
     }
+
     .bannersec {
         padding: 6rem 0 6rem !important;
         height: auto;
@@ -6279,9 +6319,11 @@ a.app-download-link3 {
         font-size: 16px !important;
         text-align: center !important;
     }
+
     .imagebx-mobile {
         margin-top: 3rem;
     }
+
     .bannertext h1 {
         font-size: 28px !important;
         line-height: 32px !important;
@@ -6420,34 +6462,35 @@ a.app-download-link3 {
         height: 100%;
     }
 }
+
 /* ----------- iPad Mini ----------- */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-    
+
     .solution-box {
         padding: 2rem 0 4rem !important;
-     }
-   
+    }
+
 }
 
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
-    
+
     .solution-box {
         padding: 2rem 0 4rem !important;
-     }
+    }
 }
 
 /* ----------- iPad Pro ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .solution-box {
-       padding: 2rem 0 4rem !important;
+        padding: 2rem 0 4rem !important;
     }
 }
 
 /* Portrait */
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
     .solution-box {
-       
+
         padding: 2rem 0 4rem !important;
     }
 }
@@ -6463,7 +6506,7 @@ a.app-download-link3 {
 @media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
 
     .solution-box {
-       
+
         padding: 2rem 0 4rem !important;
     }
 
@@ -6473,9 +6516,7 @@ a.app-download-link3 {
 /* Portrait*/
 @media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .solution-box {
-       
+
         padding: 2rem 0 4rem !important;
     }
 }
-
-

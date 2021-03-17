@@ -104,10 +104,26 @@
 		position: relative;
 		padding-bottom: 20px;
 		margin-bottom: 25px;
-		font-size: 26px;
+		font-size: 26px !important;
 		color: #212529;
 	}
 
+	#whitelabel ul.textbox li {
+		padding: 0 0 0 30px;
+		margin: 0 0 15px;
+		position: relative;
+		font-size: 18px;
+		color: #21243d;
+		/* text-transform: capitalize; */
+	}
+
+	#white-label-feature .feature-list .list h3 {
+		color: #21243d;
+		font-size: 20px;
+		font-weight: 700;
+		margin-top: 10px;
+		line-height: 28px;
+	}
 	header.org-menu .navbar-toggler{background: #ff6a5c}
 	.loader-dot div{display:none;}
 	#rev_slider_3_1_forcefullwidth {padding-top: 80px}
@@ -334,23 +350,3 @@
 
 }
 
-
-/* Landscape*/
-
-@media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-   
-    .solution-box {
-		/* height: 100vh; */
-		padding: 2rem 0 4rem !important;
-	}
-    
-    
-}
-
-/* Portrait*/
-@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    .solution-box {
-		/* height: 100vh; */
-		padding: 2rem 0 4rem !important;
-	}
-}
