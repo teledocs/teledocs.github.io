@@ -6479,10 +6479,3 @@ a.app-download-link3 {
 }
 
 
-/* (1920x1080) Full HD Display */
-@media  screen and (max-width: 1920px) {
-    .bannersec {
-        padding: 12em 0 6em;
-        
-    }
-}
