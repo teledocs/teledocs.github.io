@@ -2836,6 +2836,11 @@ p.trusted_partners {
     .video .vido-btn .btn-video {
         line-height: 60px !important;
     }
+ 
+	.hireform {
+        padding: 1rem 1rem;
+    }
+
 }
 
 @media (max-width: 540px) {
