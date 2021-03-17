@@ -2755,7 +2755,7 @@ p.trusted_partners {
 
 @media (max-width: 767px) {
     .heading-block h1 {
-        font-size: 32px;
+        font-size: 26px !important;
     }
 
     .bannersec {
@@ -2764,7 +2764,7 @@ p.trusted_partners {
     }
 
     .bannertext h1 {
-        font-size: 28px !important;
+        font-size: 26px !important;
         line-height: 32px !important;
         font-weight: 700 !important;
         /* text-align: center; */
