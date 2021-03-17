@@ -333,3 +333,24 @@
     ul.arvr-headset li:nth-child(2n+2) {padding-left: 15px;}
 
 }
+
+
+/* Landscape*/
+
+@media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+   
+    .solution-box {
+		/* height: 100vh; */
+		padding: 2rem 0 4rem !important;
+	}
+    
+    
+}
+
+/* Portrait*/
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .solution-box {
+		/* height: 100vh; */
+		padding: 2rem 0 4rem !important;
+	}
+}
