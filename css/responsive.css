@@ -76,6 +76,16 @@
 }
 
 @media(max-width:992px) {
+	header .navbar .navbar-brand img {
+        height: 35px !important;
+        transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+    }
+
 	header.org-menu .navbar-toggler{background: #ff6a5c}
 	.loader-dot div{display:none;}
 	#rev_slider_3_1_forcefullwidth {padding-top: 80px}
