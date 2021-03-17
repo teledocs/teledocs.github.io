@@ -93,7 +93,6 @@
 		color: #21243d;
 		/* text-transform: capitalize; */
 	}
-	
 	.hireform h2 {
 		color: #000;
 		font-weight: 500;
@@ -103,6 +102,7 @@
 	.heading-title .title {
 		position: relative;
 		padding-bottom: 20px;
+		line-height: 36px !important;
 		margin-bottom: 25px;
 		font-size: 26px !important;
 		color: #212529;
