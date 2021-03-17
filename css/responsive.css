@@ -85,6 +85,15 @@
         -o-transition: all 0.5s ease-in-out;
         -webkit-transition: all 0.5s ease-in-out;
     }
+	.bannersec ul.textbox li {
+		padding: 0 0 0 30px;
+		margin: 0 0 15px;
+		position: relative;
+		font-size: 20px;
+		color: #21243d;
+		/* text-transform: capitalize; */
+	}
+	
 
 	header.org-menu .navbar-toggler{background: #ff6a5c}
 	.loader-dot div{display:none;}
