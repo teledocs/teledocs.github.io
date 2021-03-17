@@ -6245,6 +6245,9 @@ a.app-download-link3 {
         font-size: 16px !important;
         text-align: center !important;
     }
+    .imagebx-mobile {
+        margin-top: 3rem;
+    }
     .bannertext h1 {
         font-size: 28px !important;
         line-height: 32px !important;
