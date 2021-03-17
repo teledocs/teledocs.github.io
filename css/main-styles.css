@@ -6174,9 +6174,26 @@ a.app-download-link3 {
     color: #00163f !important;
 }
 
+@media (max-width: 1199.98px)  {
+    #whitelabel h1 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.4em;
+        color: #21243d;
+        margin-top: 2%;
+    }
+}
+
 @media (max-width: 991.98px) {
     .texbox h3 {
         font-size: 1.8rem;
+    }
+    #whitelabel h1 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.4em;
+        color: #21243d;
+        margin-top: 2%;
     }
 }
 
