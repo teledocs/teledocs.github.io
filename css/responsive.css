@@ -124,6 +124,10 @@
 		margin-top: 10px;
 		line-height: 28px;
 	}
+
+	#back-to-top .top  {
+		display: none;
+	}
 	header.org-menu .navbar-toggler{background: #ff6a5c}
 	.loader-dot div{display:none;}
 	#rev_slider_3_1_forcefullwidth {padding-top: 80px}
