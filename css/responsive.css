@@ -94,6 +94,19 @@
 		/* text-transform: capitalize; */
 	}
 	
+	.hireform h2 {
+		color: #000;
+		font-weight: 600;
+		margin: 0;
+		font-size: 20px !important;
+	}
+	.heading-title .title {
+		position: relative;
+		padding-bottom: 20px;
+		margin-bottom: 25px;
+		font-size: 26px;
+		color: #212529;
+	}
 
 	header.org-menu .navbar-toggler{background: #ff6a5c}
 	.loader-dot div{display:none;}
