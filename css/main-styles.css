@@ -2766,9 +2766,24 @@ p.trusted_partners {
     padding: 10px 0 10px 80px;
 }
 
+.heading-title .title {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    font-size: 26px;
+    color: #212529;
+}
+
 @media (max-width: 767px) {
     .heading-block h1 {
         font-size: 32px !important;
+    }
+    .heading-title .title {
+        position: relative;
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+        font-size: 26px;
+        color: #212529;
     }
 
     .bannersec {
