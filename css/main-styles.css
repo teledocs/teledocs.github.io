@@ -2724,7 +2724,7 @@ p.trusted_partners {
 
 @media (max-width: 1399px) {
     .bannersec {
-        padding: 4em 0 3em;
+        padding: 6em 0 3em;
     }
 }
 
@@ -2811,6 +2811,9 @@ p.trusted_partners {
         font-weight: 700 !important;
         margin: 0 0 10px;
     }
+    .heading-block h1 {
+        font-size: 24px !important;
+    }
 }
 
 @media (max-width: 575px) {
@@ -2818,6 +2821,9 @@ p.trusted_partners {
     .col-xs-4,
     .col-xs-6 {
         width: 50% !important;
+    }
+    .heading-block h1 {
+        font-size: 24px !important;
     }
 }
 
@@ -6228,12 +6234,23 @@ a.app-download-link3 {
     .row-works {
         padding: 0 !important;
     }
+    .bannersec {
+        padding: 8rem 0 6rem;
+        height: auto;
+    }
 }
 
 @media (max-width: 379.98px) {
     .texbox h3 {
         font-size: 1.3rem;
         text-align: center;
+    }
+    .heading-block h1 {
+        font-size: 24px !important;
+    }
+    .bannersec {
+        padding: 6rem 0 6rem !important;
+        height: auto;
     }
 }
 
@@ -6458,5 +6475,14 @@ a.app-download-link3 {
     .solution-box {
        
         padding: 2rem 0 4rem !important;
+    }
+}
+
+
+/* (1920x1080) Full HD Display */
+@media  screen and (max-width: 1920px) {
+    .bannersec {
+        padding: 12em 0 6em;
+        
     }
 }
