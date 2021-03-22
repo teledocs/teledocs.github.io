@@ -61,9 +61,16 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
                               Fontface
 -----------------------------------------------------------------------*/
 
-
-/* 
 @font-face {
+    font-family: geomanist;
+    src: url(../font/geomanist/geomanist-light-webfont.eot);
+    src: url(../font/geomanist/geomanist-light-webfont.eot?#iefix) format("embedded-opentype"),url(../font/geomanist/geomanist-light-webfont.woff2) format("woff2"),url(../font/geomanist/geomanist-light-webfont.woff) format("woff"),url(../font/geomanist/geomanist-light-webfont.ttf) format("truetype"),url(../font/geomanist/geomanist-light-webfont.svg#geomanistlight) format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+/* @font-face {
     font-family: 'Roboto';
     src: url('../fonts/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto-Regular.woff') format('woff');
     font-weight: normal;
