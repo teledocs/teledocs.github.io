@@ -63,8 +63,8 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 @font-face {
     font-family: geomanist;
-    src: url(../font/geomanist/geomanist-light-webfont.eot);
-    src: url(../font/geomanist/geomanist-light-webfont.eot?#iefix) format("embedded-opentype"),url(../font/geomanist/geomanist-light-webfont.woff2) format("woff2"),url(../font/geomanist/geomanist-light-webfont.woff) format("woff"),url(../font/geomanist/geomanist-light-webfont.ttf) format("truetype"),url(../font/geomanist/geomanist-light-webfont.svg#geomanistlight) format("svg");
+    src: url(../font/geomanist-light-webfont.woff2);
+    src: url(../font/geomanist/geomanist-light-webfont.eot?#iefix) format("embedded-opentype"),url(../font/geomanist-light-webfont.woff2) format("woff2"),url(../font/geomanist-light-webfont.woff2) format("woff"),url(../font/geomanist/geomanist-light-webfont.ttf) format("truetype"),url(../font/geomanist/geomanist-light-webfont.svg#geomanistlight) format("svg");
     font-weight: 300;
     font-style: normal;
     font-display: swap
@@ -109,7 +109,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     font-weight: normal;
     font-style: normal;
     font-size: 16px;
@@ -156,7 +156,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     font-weight: normal;
     color: #333333;
     margin-top: 0px;
@@ -1317,7 +1317,7 @@ Margin Right
 
 .error-404 .big-text {
     font-size: 240px;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     line-height: 240px;
     color: #1e1e1e;
     font-weight: normal;
@@ -1537,7 +1537,7 @@ header .navbar .navbar-nav>li:last-child {
 header .navbar .navbar-nav .nav-item a {
     color: #ffffff;
     padding: 10px 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     font-size: 16px;
     margin-left: 40px;
 }
@@ -2339,7 +2339,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 
 .bannersec .bannertext h1 {
     font-size: 32px;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     font-weight: 700;
     line-height: 1.42;
     margin: 0 0 40px;
@@ -5196,7 +5196,7 @@ Desctop & Mobile View section scroll css
 .banner-company-info-area ul li {
     list-style-type: disc;
     color: #000;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     font-size: 15px;
     line-height: 1.4;
@@ -5212,7 +5212,7 @@ Desctop & Mobile View section scroll css
 .banner-company-info-area div h1 {
     font-size: 22px;
     color: #f44270;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     margin-top: 6px;
 }
@@ -5240,7 +5240,7 @@ Desctop & Mobile View section scroll css
 .banner-company-info-area a {
     background: linear-gradient(to right, #f8587e 47%, #f8616d 67%);
     padding: 14px 39px;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
@@ -5301,7 +5301,7 @@ Desctop & Mobile View section scroll css
 .happyface-client-info-wrap h2 {
     font-size: 25px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     margin-bottom: 20px;
 }
@@ -5310,7 +5310,7 @@ Desctop & Mobile View section scroll css
     text-align: center;
     font-size: 22px;
     padding: 10px 0 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     margin: 0 0 20px;
     font-style: italic;
@@ -5423,7 +5423,7 @@ Desctop & Mobile View section scroll css
 
 .homeAbout-riepenersbox h4 {
     font-size: 22px;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     margin: 0 0 7px;
 }
@@ -5494,7 +5494,7 @@ Desctop & Mobile View section scroll css
 
 .left-heading-info-box>h2>span {
     font-size: 19px;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
 }
 
@@ -5509,7 +5509,7 @@ Desctop & Mobile View section scroll css
 /* a.btn {
     color: #fff;
     font-size: 19px;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     background: linear-gradient(to right, #f8587e 47%, #f8616d 67%);
     padding: 13px 35px;
@@ -5764,7 +5764,7 @@ span.plus-icon {
 .accomplishments-inner-wraper h2 {
     text-align: center;
     font-size: 25px;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     margin: 0 0 20px;
 }
@@ -5850,7 +5850,7 @@ span.plus-icon {
     padding: 1rem 1rem;
     color: #000;
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     text-align: center;
     background: #feeaf0;
@@ -5954,7 +5954,7 @@ a.tab:before {
     display: block;
     color: #fff;
     font-size: 19px;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     background: linear-gradient(to right, #f8587e 47%, #f8616d 67%);
     text-align: center;
@@ -6051,7 +6051,7 @@ a.tab:before {
 
 .counter2 {
     font-size: 25px;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     margin: 0 0 5px;
     position: relative;
@@ -6061,7 +6061,7 @@ a.tab:before {
     content: "+";
     position: absolute;
     font-size: 26px;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     right: 112px;
     top: -3px;
@@ -6071,7 +6071,7 @@ a.tab:before {
     content: "+";
     position: absolute;
     font-size: 26px;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     /* right: 146px; */
     top: -3px;
@@ -6205,7 +6205,7 @@ a.tab:before {
 
 .point-text-wraper p {
     font-size: 22px;
-    font-family: 'Roboto', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     ;
     color: #fff;
 }
