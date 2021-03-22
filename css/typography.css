@@ -134,7 +134,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Now', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     color: #1e1e1e;
     margin: 0;
     -ms-word-wrap: break-word;
@@ -293,7 +293,7 @@ Heading Title
 }
 
 .title {
-    font-family: 'Now', sans-serif;
+    font-family: geomanist,Helvetica,Arial;
     color: #666666;
     margin-bottom: 30px;
     position: relative;
