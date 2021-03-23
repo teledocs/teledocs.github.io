@@ -2655,7 +2655,7 @@ p.trusted_partners {
     margin-top: 20px;
     line-height: 1.5;
     font-size: 1.3em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 #whitelabel-section {
@@ -3129,7 +3129,7 @@ p.trusted_partners {
 #feature-items .item h3 {
     color: #21243d;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     margin: 15px 0;
     text-align: center;
     padding: 0 25px;
@@ -3165,7 +3165,7 @@ p.trusted_partners {
 #white-label-feature .feature-list .list h3 {
     color: #21243d;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 10px;
 }
 
@@ -3299,7 +3299,7 @@ p.trusted_partners {
 #supporting-devices .item h3 {
     color: #21243d;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 20px;
 }
 
@@ -3327,7 +3327,7 @@ p.trusted_partners {
 
 #white-label-faq .card h3 {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 32px;
     color: #21243d;
     text-align: left;
