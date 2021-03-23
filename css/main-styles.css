@@ -2718,7 +2718,7 @@ p.trusted_partners {
 }
 
 #why .item .description h3 {
-    font-weight: 700;
+    font-weight: 600;
     color: #21243d;
     margin-bottom: 15px;
     font-size: 1.3em !important;
@@ -2992,7 +2992,7 @@ p.trusted_partners {
 
 #whitelabel h1 {
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.4em;
     color: #21243d;
     margin-top: 2%;
@@ -6320,7 +6320,7 @@ a.app-download-link3 {
 @media (max-width: 1199.98px) {
     #whitelabel h1 {
         font-size: 30px;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 1.4em;
         color: #21243d;
         margin-top: 2%;
@@ -6334,7 +6334,7 @@ a.app-download-link3 {
 
     #whitelabel h1 {
         font-size: 30px;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 1.4em;
         color: #21243d;
         margin-top: 2%;
